@@ -1,0 +1,5553 @@
+[
+  {
+    "text": "The magenta ball-stick ( located just above the gefitinib molecule in the active site ) indicates the gatekeeper residue ( threonine790 ) that is commonly mutated to methionine ( T790M ) , resulting in reduced inhibitor binding and drug resistance .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [48, 57],
+        "tok_span": [11, 15]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [179, 184],
+        "tok_span": [40, 44]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [179, 184],
+        "obj_char_span": [48, 57],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [40, 44],
+        "obj_tok_span": [11, 15]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In cancer tissues from lung adenocarcinoma patients who showed resistance to gefitinib , high expression levels of HGF were observed in the lung cancer cells that did not harbor the T790M mutation or MET amplification .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [77, 86],
+        "tok_span": [11, 15]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [182, 187],
+        "tok_span": [34, 38]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [182, 187],
+        "obj_char_span": [77, 86],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [34, 38],
+        "obj_tok_span": [11, 15]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "To test this possibility , two types of gefitinib-sensitive cells ( PC9 cells that endogenously express EGFR deletion mutant in exon19 of EGFR gene and HEK293T cells that exogenously express EGFR L858R mutant ) were transfected with an expression vector encoding the oncogenic K-Ras G12V mutant .",
+    "entity_list": [
+      {
+        "name": "gefitinib-sensitive",
+        "ent_type": "drug",
+        "char_span": [40, 59],
+        "tok_span": [8, 14]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [196, 201],
+        "tok_span": [42, 46]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib-sensitive",
+        "sbj_char_span": [196, 201],
+        "obj_char_span": [40, 59],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [42, 46],
+        "obj_tok_span": [8, 14]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The T790M second mutation accounts for half of all resistances to gefitinib and erlotinib .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [66, 75],
+        "tok_span": [15, 19]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [4, 9],
+        "tok_span": [1, 5]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [80, 89],
+        "tok_span": [20, 24]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [66, 75],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [15, 19]
+      },
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [80, 89],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [20, 24]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "NSCLC patients with exon 20 mutations showed a gefitinib response rate of 25 % , far lower than that of patients with exon 19 deletions and L858R mutations .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [47, 56],
+        "tok_span": [8, 12]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [140, 145],
+        "tok_span": [29, 33]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [140, 145],
+        "obj_char_span": [47, 56],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [29, 33],
+        "obj_tok_span": [8, 12]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "We also found gefitinib or NK cells could enhance MHC-I expression , which impairs the recognization of NK cells , in lung tumor cells with wild type EGFR , while not in those with EGFR L858R + T790M .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [14, 23],
+        "tok_span": [3, 7]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [194, 199],
+        "tok_span": [46, 50]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [186, 191],
+        "tok_span": [41, 45]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [194, 199],
+        "obj_char_span": [14, 23],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [46, 50],
+        "obj_tok_span": [3, 7]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [186, 191],
+        "obj_char_span": [14, 23],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [41, 45],
+        "obj_tok_span": [3, 7]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Therapeutic significance of our finding is that administration of gefitinib may offer a novel adjuvant strategy to enhance NK cells based immunotherapy in NSCLC with EGFR L858R + T790M resistance mutation .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [66, 75],
+        "tok_span": [9, 13]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [179, 184],
+        "tok_span": [34, 38]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [171, 176],
+        "tok_span": [29, 33]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [179, 184],
+        "obj_char_span": [66, 75],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [34, 38],
+        "obj_tok_span": [9, 13]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [171, 176],
+        "obj_char_span": [66, 75],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [29, 33],
+        "obj_tok_span": [9, 13]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The investigated EGFR-TKI sensitive mutations included G719C , G719S , G719A , L858R , L861Q , and exon 19 deletions , as well as a gefitinib-resistant mutation , T790M .",
+    "entity_list": [
+      {
+        "name": "gefitinib-resistant",
+        "ent_type": "drug",
+        "char_span": [132, 151],
+        "tok_span": [43, 49]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [163, 168],
+        "tok_span": [51, 55]
+      },
+      {
+        "name": "G719S",
+        "ent_type": "variant",
+        "char_span": [63, 68],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [79, 84],
+        "tok_span": [24, 28]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib-resistant",
+        "sbj_char_span": [163, 168],
+        "obj_char_span": [132, 151],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [51, 55],
+        "obj_tok_span": [43, 49]
+      },
+      {
+        "subject": "G719S",
+        "object": "gefitinib-resistant",
+        "sbj_char_span": [63, 68],
+        "obj_char_span": [132, 151],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [14, 18],
+        "obj_tok_span": [43, 49]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib-resistant",
+        "sbj_char_span": [79, 84],
+        "obj_char_span": [132, 151],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [24, 28],
+        "obj_tok_span": [43, 49]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In gefitinib treated patients , six EGFR mutations involved exon 19 deletions that lacked the amino acids Leu-Arg-Glu-Ala , and two were exon 21 amino acid substitutions ( L858R ) .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [3, 12],
+        "tok_span": [1, 5]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [172, 177],
+        "tok_span": [37, 41]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [172, 177],
+        "obj_char_span": [3, 12],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [37, 41],
+        "obj_tok_span": [1, 5]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The EGF receptor tyrosine kinase inhibitors ( EGFR-TKIs ) gefitinib and erlotinib have shown marked therapeutic effects against NSCLCs with EGFR activating mutations , such as exon 19 deletions and L858R point mutations . ",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [58, 67],
+        "tok_span": [12, 16]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [198, 203],
+        "tok_span": [40, 44]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [198, 203],
+        "obj_char_span": [58, 67],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [40, 44],
+        "obj_tok_span": [12, 16]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Recently a new EGFR mutation of T790M was discovered that explained the resistance to gefitinib after drug administration .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [86, 95],
+        "tok_span": [17, 21]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [32, 37],
+        "tok_span": [6, 10]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [32, 37],
+        "obj_char_span": [86, 95],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [6, 10],
+        "obj_tok_span": [17, 21]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "MiR-200c could upregulate the expression of E-cadherin and trigger MET in H1975 , but can not reverse the resistance to gefitinib owing to T790M existence .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [120, 129],
+        "tok_span": [31, 35]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [139, 144],
+        "tok_span": [37, 41]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [139, 144],
+        "obj_char_span": [120, 129],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [37, 41],
+        "obj_tok_span": [31, 35]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The most common mechanism of acquired drug resistance gefitinib is the secondary EGFR T790M mutation , which is detected in up to 60 % of EGFR mutant NSCLC patients .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [54, 63],
+        "tok_span": [8, 12]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [86, 91],
+        "tok_span": [16, 20]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [86, 91],
+        "obj_char_span": [54, 63],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [8, 12]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "This molecular change had been found in samples with gefitinib or erlotinib resistance in vivo or in vitro . c-MET amplification has also occasionally been found to coexist with EGFR T790M mutation .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [53, 62],
+        "tok_span": [9, 13]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [183, 188],
+        "tok_span": [39, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [183, 188],
+        "obj_char_span": [53, 62],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [9, 13]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The T790M mutation abrogated the effect of erlotinib on L858R , and the L858R/T790M double mutant readily induced Akt phosphorylation even in the presence of 10 μM erlotinib .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [43, 52],
+        "tok_span": [12, 16]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [56, 61],
+        "tok_span": [17, 21]
+      },
+      {
+        "name": "μM erlotinib",
+        "ent_type": "drug",
+        "char_span": [161, 173],
+        "tok_span": [45, 51]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [4, 9],
+        "tok_span": [1, 5]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [56, 61],
+        "obj_char_span": [43, 52],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [17, 21],
+        "obj_tok_span": [12, 16]
+      },
+      {
+        "subject": "L858R",
+        "object": "μM erlotinib",
+        "sbj_char_span": [56, 61],
+        "obj_char_span": [161, 173],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [17, 21],
+        "obj_tok_span": [45, 51]
+      },
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [43, 52],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [12, 16]
+      },
+      {
+        "subject": "T790M",
+        "object": "μM erlotinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [161, 173],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [45, 51]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Transformation induced by expression of L858R , G719S , and L747_E749del A750P EGFR , but not EGF stimulated wild-type EGFR or D770_N771insNPG EGFR , was inhibited by 0.1 μM erlotinib .",
+    "entity_list": [
+      {
+        "name": "μM erlotinib",
+        "ent_type": "drug",
+        "char_span": [171, 183],
+        "tok_span": [57, 63]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [40, 45],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "μM erlotinib",
+        "sbj_char_span": [40, 45],
+        "obj_char_span": [171, 183],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [57, 63]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "One of the mutations ( L858R ) was previously identified in non-small cell lung cancer ( NSCLC ) patients and this mutation was found to increase sensitivity to EGFR inhibitor , Erlotinib .",
+    "entity_list": [
+      {
+        "name": "Erlotinib",
+        "ent_type": "drug",
+        "char_span": [178, 187],
+        "tok_span": [36, 39]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [23, 28],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "Erlotinib",
+        "sbj_char_span": [23, 28],
+        "obj_char_span": [178, 187],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [36, 39]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Epidermal growth factor receptor (EGFR) activating mutations , such as exon 19 deletion and exon 21 L858R point mutation , are found in a population of NSCLC , and are associated with a clinical response to the EGFR tyrosine kinase inhibitors ( EGF-TKIs ) , gefitinib and erlotinib – .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [272, 281],
+        "tok_span": [59, 63]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [100, 105],
+        "tok_span": [19, 23]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [100, 105],
+        "obj_char_span": [272, 281],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [19, 23],
+        "obj_tok_span": [59, 63]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Transient transfection experiments utilizing COS-7 cells demonstrated that auto-phosphorylation of the original L858R EGFR was inhibited by lower concentrations of gefitinib or erlotinib than the L858R-L747S or L858R-T790M constructs ( A ) . ",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [177, 186],
+        "tok_span": [33, 37]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [112, 117],
+        "tok_span": [17, 21]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [112, 117],
+        "obj_char_span": [177, 186],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [17, 21],
+        "obj_tok_span": [33, 37]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Activating mutations such as exon 21 missense point mutation L858R and in-frame deletions in exon 19 are the most commonly studied predictive biomarkers of response to EGFR-TKIs ( gefitinib and erlotinib ) , . ",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [194, 203],
+        "tok_span": [43, 47]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [61, 66],
+        "tok_span": [11, 15]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [61, 66],
+        "obj_char_span": [194, 203],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [11, 15],
+        "obj_tok_span": [43, 47]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Colon-cancer derived G719S and G724S mutants are oncogenic and sensitive to cetuximab",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [76, 85],
+        "tok_span": [19, 23]
+      },
+      {
+        "name": "G719S",
+        "ent_type": "variant",
+        "char_span": [21, 26],
+        "tok_span": [4, 8]
+      },
+      {
+        "name": "G724S",
+        "ent_type": "variant",
+        "char_span": [31, 36],
+        "tok_span": [9, 13]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G719S",
+        "object": "cetuximab",
+        "sbj_char_span": [21, 26],
+        "obj_char_span": [76, 85],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [4, 8],
+        "obj_tok_span": [19, 23]
+      },
+      {
+        "subject": "G724S",
+        "object": "cetuximab",
+        "sbj_char_span": [31, 36],
+        "obj_char_span": [76, 85],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [9, 13],
+        "obj_tok_span": [19, 23]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In order to further examine the efficacy of cetuximab , we expanded our studies by generating xenograft mouse models with either SW48 or HCT8 colon cancer cells , which harbor either EGFR G719S or KRAS G13D mutation , respectively .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [44, 53],
+        "tok_span": [8, 12]
+      },
+      {
+        "name": "G719S",
+        "ent_type": "variant",
+        "char_span": [188, 193],
+        "tok_span": [38, 42]
+      },
+      {
+        "name": "G13D",
+        "ent_type": "variant",
+        "char_span": [202, 206],
+        "tok_span": [45, 48]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G719S",
+        "object": "cetuximab",
+        "sbj_char_span": [188, 193],
+        "obj_char_span": [44, 53],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [8, 12]
+      },
+      {
+        "subject": "G13D",
+        "object": "cetuximab",
+        "sbj_char_span": [202, 206],
+        "obj_char_span": [44, 53],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [45, 48],
+        "obj_tok_span": [8, 12]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Taken together , these data suggest that colon cancer derived cetuximab-sensitive G719S and G724S mutants acquire their oncogenic potentials following asymmetric dimerization , respectively , which are similar to lung-cancer derived L858R mutant .",
+    "entity_list": [
+      {
+        "name": "cetuximab-sensitive",
+        "ent_type": "drug",
+        "char_span": [62, 81],
+        "tok_span": [10, 16]
+      },
+      {
+        "name": "G719S",
+        "ent_type": "variant",
+        "char_span": [82, 87],
+        "tok_span": [16, 20]
+      },
+      {
+        "name": "G724S",
+        "ent_type": "variant",
+        "char_span": [92, 97],
+        "tok_span": [21, 25]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G719S",
+        "object": "cetuximab-sensitive",
+        "sbj_char_span": [82, 87],
+        "obj_char_span": [62, 81],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [10, 16]
+      },
+      {
+        "subject": "G724S",
+        "object": "cetuximab-sensitive",
+        "sbj_char_span": [92, 97],
+        "obj_char_span": [62, 81],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [21, 25],
+        "obj_tok_span": [10, 16]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Furthermore , we found that dimerization dependent L858R mutant shows a dramatic response to cetuximab , whereas tumors driven by dimerization independent mutants such as T790M are resistant to the antibody , suggesting that there is a close correlation between dimerization dependency of lung cancer derived oncogenic mutant EGFR and pharmacological effects of cetuximab .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [93, 102],
+        "tok_span": [18, 22]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [171, 176],
+        "tok_span": [33, 37]
+      },
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [362, 371],
+        "tok_span": [65, 69]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "cetuximab",
+        "sbj_char_span": [171, 176],
+        "obj_char_span": [93, 102],
+        "rel_type": "response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [18, 22]
+      },
+      {
+        "subject": "T790M",
+        "object": "cetuximab",
+        "sbj_char_span": [171, 176],
+        "obj_char_span": [362, 371],
+        "rel_type": "response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [65, 69]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Recently , the addition of cetuximab to afatinib has yielded impressive results in the treatment of EGFR reversible TKI resistant lung cancer due to T790M mutation .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [27, 36],
+        "tok_span": [5, 9]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [149, 154],
+        "tok_span": [29, 33]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "cetuximab",
+        "sbj_char_span": [149, 154],
+        "obj_char_span": [27, 36],
+        "rel_type": "response",
+        "sbj_tok_span": [29, 33],
+        "obj_tok_span": [5, 9]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Acquired resistance EGFR mutations Mutations in the EC domain ( S492R ) and in the kinase domain ( codons 714 and 794 ) of EGFR found in patients Panitumumab remained active in a patient with S492R mutation , which abrogated cetuximab binding .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [225, 234],
+        "tok_span": [53, 57]
+      },
+      {
+        "name": "S492R",
+        "ent_type": "variant",
+        "char_span": [64, 69],
+        "tok_span": [11, 15]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "S492R",
+        "object": "cetuximab",
+        "sbj_char_span": [64, 69],
+        "obj_char_span": [225, 234],
+        "rel_type": "resistance",
+        "sbj_tok_span": [11, 15],
+        "obj_tok_span": [53, 57]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The effect of BRAF V600E mutation on cetuximab or panitumumab response was also assessed using cellular models of CRC .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [37, 46],
+        "tok_span": [9, 13]
+      },
+      {
+        "name": "V600E",
+        "ent_type": "variant",
+        "char_span": [19, 24],
+        "tok_span": [4, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "V600E",
+        "object": "cetuximab",
+        "sbj_char_span": [19, 24],
+        "obj_char_span": [37, 46],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [4, 7],
+        "obj_tok_span": [9, 13]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In the one case of discordance between KRAS mutation status before and after combined cetuximab therapy ( case # 4 ) , a mutated KRAS gene ( Exon 2 G12D ) was found in the primary CRC , while no KRAS mutation was observed in a liver metastasis sample obtained after combined cetuximab therapy ( ) .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [86, 95],
+        "tok_span": [16, 20]
+      },
+      {
+        "name": "G12D",
+        "ent_type": "variant",
+        "char_span": [148, 152],
+        "tok_span": [36, 39]
+      },
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [275, 284],
+        "tok_span": [62, 66]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G12D",
+        "object": "cetuximab",
+        "sbj_char_span": [148, 152],
+        "obj_char_span": [86, 95],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [36, 39],
+        "obj_tok_span": [16, 20]
+      },
+      {
+        "subject": "G12D",
+        "object": "cetuximab",
+        "sbj_char_span": [148, 152],
+        "obj_char_span": [275, 284],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [36, 39],
+        "obj_tok_span": [62, 66]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The D842V was identified in one patient with primary mutation V561D , which is known to be associated with imatinib resistance .",
+    "entity_list": [
+      {
+        "name": "imatinib",
+        "ent_type": "drug",
+        "char_span": [107, 115],
+        "tok_span": [25, 27]
+      },
+      {
+        "name": "D842V",
+        "ent_type": "variant",
+        "char_span": [4, 9],
+        "tok_span": [1, 5]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "D842V",
+        "object": "imatinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [107, 115],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [25, 27]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Additionally , AP26113 was evaluated on the crizotinib resistant gatekeeper mutant L1196M both in vitro and in vivo and appeared to be able to overcome resistance to crizotinib .",
+    "entity_list": [
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [44, 54],
+        "tok_span": [9, 13]
+      },
+      {
+        "name": "L1196M",
+        "ent_type": "variant",
+        "char_span": [83, 89],
+        "tok_span": [18, 22]
+      },
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [166, 176],
+        "tok_span": [37, 41]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L1196M",
+        "object": "crizotinib",
+        "sbj_char_span": [83, 89],
+        "obj_char_span": [44, 54],
+        "rel_type": "resistance",
+        "sbj_tok_span": [18, 22],
+        "obj_tok_span": [9, 13]
+      },
+      {
+        "subject": "L1196M",
+        "object": "crizotinib",
+        "sbj_char_span": [83, 89],
+        "obj_char_span": [166, 176],
+        "rel_type": "resistance",
+        "sbj_tok_span": [18, 22],
+        "obj_tok_span": [37, 41]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Afatinib also shows activity against cancers resistant to first-generation EGFR inhibitors due to certain activating EGFR mutations , secondary EGFR mutations such as T790M or tumours expressing other ErbB family receptors activated by drug induced reprogramming of signalling pathways .",
+    "entity_list": [
+      {
+        "name": "Afatinib",
+        "ent_type": "drug",
+        "char_span": [0, 8],
+        "tok_span": [0, 2]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [167, 172],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "Afatinib",
+        "sbj_char_span": [167, 172],
+        "obj_char_span": [0, 8],
+        "rel_type": "response",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [0, 2]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Another approach for T790M mediated resistance is the dual inhibition of EGFR with afatinib and cetuximab , an EGFR blocking antibody resembling the synergistic combination of lapatinib and trastuzumab in ErbB2 positive breast cancer .",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [83, 91],
+        "tok_span": [16, 18]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [21, 26],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "afatinib",
+        "sbj_char_span": [21, 26],
+        "obj_char_span": [83, 91],
+        "rel_type": "response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [16, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "We found that treatment with ponatinib and vorinostat significantly inhibited T315I mutant cell growth compared to treatment with single drugs ( ) .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [29, 38],
+        "tok_span": [5, 9]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [78, 83],
+        "tok_span": [16, 20]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [78, 83],
+        "obj_char_span": [29, 38],
+        "rel_type": "response",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [5, 9]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "These results indicated that co-treatment with ponatinib and vorinostat was effective against T315I mutant cells in the xenograft model ( ) .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [47, 56],
+        "tok_span": [8, 12]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [94, 99],
+        "tok_span": [20, 24]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [94, 99],
+        "obj_char_span": [47, 56],
+        "rel_type": "response",
+        "sbj_tok_span": [20, 24],
+        "obj_tok_span": [8, 12]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "10.1371/journal.pone.0089080.g003Effects of ponatinib and vorinostat on Ba/F3 T315I cells in a xenograft model .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [44, 53],
+        "tok_span": [21, 25]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [78, 83],
+        "tok_span": [35, 39]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [78, 83],
+        "obj_char_span": [44, 53],
+        "rel_type": "response",
+        "sbj_tok_span": [35, 39],
+        "obj_tok_span": [21, 25]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Ponatinib is effective against T315I mutant cells that are resistant to imatinib and second-generation ABL TKIs nilotinib and dasatinib .",
+    "entity_list": [
+      {
+        "name": "Ponatinib",
+        "ent_type": "drug",
+        "char_span": [0, 9],
+        "tok_span": [0, 2]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [31, 36],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "Ponatinib",
+        "sbj_char_span": [31, 36],
+        "obj_char_span": [0, 9],
+        "rel_type": "response",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [0, 2]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Using the Ba/F3 T315I xenograft model , ponatinib or vorinostat ( 30 and 70 mg/kg , respectively ) showed similar reduction in tumor size .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [40, 49],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [16, 21],
+        "tok_span": [6, 10]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [16, 21],
+        "obj_char_span": [40, 49],
+        "rel_type": "response",
+        "sbj_tok_span": [6, 10],
+        "obj_tok_span": [14, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In a recently concluded phase I clinical trial , the multikinase and pan-BCR-ABL1 inhibitor , ponatinib ( AP24534 ) induced a complete cytogenetic and major molecular response rates of 89 % and 78 % , respectively , in CML patients with T315I , and most responses were maintained after 12 months of follow-up .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [94, 103],
+        "tok_span": [22, 26]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [237, 242],
+        "tok_span": [55, 59]
+      },
+      {
+        "name": "AP24534",
+        "ent_type": "drug",
+        "char_span": [106, 113],
+        "tok_span": [27, 31]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [237, 242],
+        "obj_char_span": [94, 103],
+        "rel_type": "response",
+        "sbj_tok_span": [55, 59],
+        "obj_tok_span": [22, 26]
+      },
+      {
+        "subject": "T315I",
+        "object": "AP24534",
+        "sbj_char_span": [237, 242],
+        "obj_char_span": [106, 113],
+        "rel_type": "response",
+        "sbj_tok_span": [55, 59],
+        "obj_tok_span": [27, 31]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "To obtain a logical understanding of the gefitinib sensitivity associated with L858R mutation , the mathematical analysis of the EGFR signaling pathway should be more preferable rather than sole experimental representations .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [41, 50],
+        "tok_span": [7, 11]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [79, 84],
+        "tok_span": [14, 18]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [79, 84],
+        "obj_char_span": [41, 50],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [14, 18],
+        "obj_tok_span": [7, 11]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Also , we found that EGFR-WT model at lower concentrations of EGF is as sensitive to gefitinib for ERK phosphorylation as L858R model A ( data not shown ) .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [85, 94],
+        "tok_span": [18, 22]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [122, 127],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [122, 127],
+        "obj_char_span": [85, 94],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [18, 22]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The multiplying coefficient α is given by α = ( k3 ) / ( k3 in EGFR-WT model or L858R models ) . α = 1 means without gefitinib .",
+    "entity_list": [
+      {
+        "name": "without gefitinib",
+        "ent_type": "drug",
+        "char_span": [109, 126],
+        "tok_span": [34, 39]
+      },
+      {
+        "name": "or L858R",
+        "ent_type": "variant",
+        "char_span": [77, 85],
+        "tok_span": [22, 27]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "or L858R",
+        "object": "without gefitinib",
+        "sbj_char_span": [77, 85],
+        "obj_char_span": [109, 126],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [22, 27],
+        "obj_tok_span": [34, 39]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "More recently , Chang et al. confirmed that in the absence of the common second-site EGFR mutation T790M or MET amplification , acquired resistance to gefitinib occurs in EGFR mutated PC9 cells that have undergone EMT .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [151, 160],
+        "tok_span": [31, 35]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [99, 104],
+        "tok_span": [20, 24]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [99, 104],
+        "obj_char_span": [151, 160],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [20, 24],
+        "obj_tok_span": [31, 35]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "NSCLC tumors carrying EGFR activating mutations ( e.g. , exon 19 deletions or L858R ) respond preferentially to the EGFR TKIs gefitinib and erlotinib .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [126, 135],
+        "tok_span": [28, 32]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [78, 83],
+        "tok_span": [16, 20]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [78, 83],
+        "obj_char_span": [126, 135],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [28, 32]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "However , in patients with acquired resistance , tumor cells bearing EGFR T790M represented a minority of cells , and as such , part of the tumor may remain responsive to erlotinib or gefitinib. , The other signal pathway related EGFR followed the same principles .",
+    "entity_list": [
+      {
+        "name": "gefitinib.",
+        "ent_type": "drug",
+        "char_span": [184, 194],
+        "tok_span": [39, 44]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [74, 79],
+        "tok_span": [12, 16]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib.",
+        "sbj_char_span": [74, 79],
+        "obj_char_span": [184, 194],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [12, 16],
+        "obj_tok_span": [39, 44]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "However , EGFR mutations was not a significant prognostic factor in an initial two large retrospective studies in surgically treated patients without gefitinib treatment ( ; ) , although reported that patients with exon 19 deletion have significantly shorter survival than those with L858R , but this is not confirmed by other investigators so far .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [150, 159],
+        "tok_span": [22, 26]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [284, 289],
+        "tok_span": [46, 50]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [284, 289],
+        "obj_char_span": [150, 159],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [46, 50],
+        "obj_tok_span": [22, 26]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "However , an in vitro study showed that the growth of NSCLC cell lines harboring exon 19 deletion or L858R mutation were almost equally inhibited by equivalent concentrations of gefitinib , and the degree of EGFR phosphorylation . ",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [178, 187],
+        "tok_span": [32, 36]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [101, 106],
+        "tok_span": [19, 23]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [101, 106],
+        "obj_char_span": [178, 187],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [19, 23],
+        "obj_tok_span": [32, 36]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The L858R mutant was 10–100 fold more sensitive to erlotinib and gefitinib than the wild type kinase , .",
+    "entity_list": [
+      {
+        "name": "and gefitinib",
+        "ent_type": "drug",
+        "char_span": [61, 74],
+        "tok_span": [18, 23]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [4, 9],
+        "tok_span": [1, 5]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "and gefitinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [61, 74],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [18, 23]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Likewise , the T790M mutation in the EGFR gene rose after chronic exposure to Gefitinib in NSCLC , conferring resistance to this inhibitor .",
+    "entity_list": [
+      {
+        "name": "Gefitinib",
+        "ent_type": "drug",
+        "char_span": [78, 87],
+        "tok_span": [17, 20]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [15, 20],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "Gefitinib",
+        "sbj_char_span": [15, 20],
+        "obj_char_span": [78, 87],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [17, 20]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For example , patients with epidermal growth factor receptor (EGFR) mutations , most frequently exon 19 deletions and exon 21 point mutation L858R may respond to EGFR–TKI , like gefitinib or erlotinib .",
+    "entity_list": [
+      {
+        "name": "like gefitinib",
+        "ent_type": "drug",
+        "char_span": [173, 187],
+        "tok_span": [36, 41]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [141, 146],
+        "tok_span": [24, 28]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "like gefitinib",
+        "sbj_char_span": [141, 146],
+        "obj_char_span": [173, 187],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [24, 28],
+        "obj_tok_span": [36, 41]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Resistance of a NSCLC Cell Line Harboring Both T790M and L858R Mutations to Gefitinib or Erlotinib",
+    "entity_list": [
+      {
+        "name": "Erlotinib",
+        "ent_type": "drug",
+        "char_span": [89, 98],
+        "tok_span": [25, 28]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [57, 62],
+        "tok_span": [15, 19]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [47, 52],
+        "tok_span": [10, 14]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "Erlotinib",
+        "sbj_char_span": [57, 62],
+        "obj_char_span": [89, 98],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [25, 28]
+      },
+      {
+        "subject": "T790M",
+        "object": "Erlotinib",
+        "sbj_char_span": [47, 52],
+        "obj_char_span": [89, 98],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [10, 14],
+        "obj_tok_span": [25, 28]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "How tumor cells bearing the T790M mutation emerge within gefitinib- or erlotinib treated patients is a matter of investigation .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [71, 80],
+        "tok_span": [18, 22]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [28, 33],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [28, 33],
+        "obj_char_span": [71, 80],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [18, 22]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In either scenario , treatment with gefitinib or erlotinib subsequently allows these resistant subclones to become apparent , because most cells bearing sensitivity conferring mutations die , while cells with the T790M mutation persist .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [49, 58],
+        "tok_span": [11, 15]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [213, 218],
+        "tok_span": [39, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [213, 218],
+        "obj_char_span": [49, 58],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [11, 15]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "We found that the mechanism of erlotinib resistance of HCC827TR3 was neither c-Met amplification nor T790M mutation in EGFR ( data not shown ) .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [31, 40],
+        "tok_span": [6, 10]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [101, 106],
+        "tok_span": [24, 28]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [101, 106],
+        "obj_char_span": [31, 40],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [24, 28],
+        "obj_tok_span": [6, 10]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The most commonly identified mechanism of resistance is an EGFR mutation at position 790 ( T790M ) , resulting in substitution of a threonine residue with methionine , which abrogates the ability of gefitinib or erlotinib to inhibit EGFR .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [212, 221],
+        "tok_span": [45, 49]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [91, 96],
+        "tok_span": [16, 20]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [91, 96],
+        "obj_char_span": [212, 221],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [45, 49]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "However , it was demonstrated recently that T790M increased the affinity of ATP to the EGFR tyrosine kinase domain ; thus , it decreased the binding of gefitinib and erlotinib , because they are ATP-competitive agents .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [166, 175],
+        "tok_span": [35, 39]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [44, 49],
+        "tok_span": [7, 11]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [44, 49],
+        "obj_char_span": [166, 175],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [7, 11],
+        "obj_tok_span": [35, 39]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In the xenograft model of mice , the combination of cetuximab and afatinib can lead to a significant reduction of erlotinib-resistant tumor harboring T790M , compared to gefitinib plus cetuximab .",
+    "entity_list": [
+      {
+        "name": "erlotinib-resistant",
+        "ent_type": "drug",
+        "char_span": [114, 133],
+        "tok_span": [25, 31]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [150, 155],
+        "tok_span": [33, 37]
+      },
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [52, 61],
+        "tok_span": [11, 15]
+      },
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [185, 194],
+        "tok_span": [45, 49]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib-resistant",
+        "sbj_char_span": [150, 155],
+        "obj_char_span": [114, 133],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [25, 31]
+      },
+      {
+        "subject": "T790M",
+        "object": "cetuximab",
+        "sbj_char_span": [150, 155],
+        "obj_char_span": [52, 61],
+        "rel_type": "response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [11, 15]
+      },
+      {
+        "subject": "T790M",
+        "object": "cetuximab",
+        "sbj_char_span": [150, 155],
+        "obj_char_span": [185, 194],
+        "rel_type": "response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [45, 49]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "These preclinical models suggest that dacomitinib may be quite effective against lung cancer that becomes resistant to gefitinib or erlotinib via acquisition of a T790M mutation in EGFR .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [132, 141],
+        "tok_span": [25, 29]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [163, 168],
+        "tok_span": [33, 37]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [163, 168],
+        "obj_char_span": [132, 141],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [25, 29]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For tyrosine kinase inhibitors ( TKIs ) , mutations within the ATP pocket of the kinase domain may affect the interaction of the drug with its target : for example , the single amino acid mutation tyrosine/methionine ( T790M ) in the ATP binding pocket of the EGFR mediates secondary resistance to the EGFR TKIs erlotinib and gefitinib in non-small cell lung cancer ( NSCLC ) .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [312, 321],
+        "tok_span": [62, 66]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [219, 224],
+        "tok_span": [41, 45]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [219, 224],
+        "obj_char_span": [312, 321],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [41, 45],
+        "obj_tok_span": [62, 66]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Di Nicolantonio et al also demonstrated that introduction of the B-RAF V600E allele could confer resistance to either cetuximab or panitumumab in wild-type B-RAF colorectal cancer cells .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [118, 127],
+        "tok_span": [27, 31]
+      },
+      {
+        "name": "V600E",
+        "ent_type": "variant",
+        "char_span": [71, 76],
+        "tok_span": [18, 21]
+      },
+      {
+        "name": "panitumumab",
+        "ent_type": "drug",
+        "char_span": [131, 142],
+        "tok_span": [32, 35]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "V600E",
+        "object": "cetuximab",
+        "sbj_char_span": [71, 76],
+        "obj_char_span": [118, 127],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [18, 21],
+        "obj_tok_span": [27, 31]
+      },
+      {
+        "subject": "V600E",
+        "object": "panitumumab",
+        "sbj_char_span": [71, 76],
+        "obj_char_span": [131, 142],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [18, 21],
+        "obj_tok_span": [32, 35]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Other examples of useful biomarkers are KRAS mutation testing to predict benefit from monoclonal antibodies against EGFR , cetuximab and panitumumab , in metastatic colon cancer and BRAF V600E mutation analysis in metastatic melanoma in order to predict responsiveness to BRAF inhibitors such as vemurafenib .",
+    "entity_list": [
+      {
+        "name": "panitumumab",
+        "ent_type": "drug",
+        "char_span": [137, 148],
+        "tok_span": [24, 27]
+      },
+      {
+        "name": "V600E",
+        "ent_type": "variant",
+        "char_span": [187, 192],
+        "tok_span": [34, 37]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "V600E",
+        "object": "panitumumab",
+        "sbj_char_span": [187, 192],
+        "obj_char_span": [137, 148],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [34, 37],
+        "obj_tok_span": [24, 27]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "However , the ability of crizotinib to inhibit ALK phosphorylation was substantially reduced in all mutants tested , with IC50s & gt ; 1000 nm for L1196M and G1269S ( ) .",
+    "entity_list": [
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [25, 35],
+        "tok_span": [5, 9]
+      },
+      {
+        "name": "L1196M",
+        "ent_type": "variant",
+        "char_span": [147, 153],
+        "tok_span": [33, 37]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L1196M",
+        "object": "crizotinib",
+        "sbj_char_span": [147, 153],
+        "obj_char_span": [25, 35],
+        "rel_type": "resistance",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [5, 9]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Impact of L1196M on anti-ALK activity of crizotinib and TAE684 .",
+    "entity_list": [
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [41, 51],
+        "tok_span": [13, 17]
+      },
+      {
+        "name": "L1196M",
+        "ent_type": "variant",
+        "char_span": [10, 16],
+        "tok_span": [2, 6]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L1196M",
+        "object": "crizotinib",
+        "sbj_char_span": [10, 16],
+        "obj_char_span": [41, 51],
+        "rel_type": "resistance",
+        "sbj_tok_span": [2, 6],
+        "obj_tok_span": [13, 17]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "L1196M and L1152R mutations confer resistance to crizotinib via steric interference .",
+    "entity_list": [
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [49, 59],
+        "tok_span": [13, 17]
+      },
+      {
+        "name": "L1196M",
+        "ent_type": "variant",
+        "char_span": [0, 6],
+        "tok_span": [0, 4]
+      },
+      {
+        "name": "L1152R",
+        "ent_type": "variant",
+        "char_span": [11, 17],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L1196M",
+        "object": "crizotinib",
+        "sbj_char_span": [0, 6],
+        "obj_char_span": [49, 59],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [13, 17]
+      },
+      {
+        "subject": "L1152R",
+        "object": "crizotinib",
+        "sbj_char_span": [11, 17],
+        "obj_char_span": [49, 59],
+        "rel_type": "resistance",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [13, 17]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The strategies described here could also benefit patients with ALK translocated cancers , where the F1174L mutation modulates crizotinib resistance and the same signaling pathways that drive tumor cells without translocated ALK are active .",
+    "entity_list": [
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [126, 136],
+        "tok_span": [23, 27]
+      },
+      {
+        "name": "F1174L",
+        "ent_type": "variant",
+        "char_span": [100, 106],
+        "tok_span": [17, 21]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "F1174L",
+        "object": "crizotinib",
+        "sbj_char_span": [100, 106],
+        "obj_char_span": [126, 136],
+        "rel_type": "resistance",
+        "sbj_tok_span": [17, 21],
+        "obj_tok_span": [23, 27]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Inhibition of EGFR cell lines by afatinib compared to erlotinib as shown by EC50 values Wild-type L858R mutation L858R + T790M",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [33, 41],
+        "tok_span": [6, 8]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [98, 103],
+        "tok_span": [23, 27]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [121, 126],
+        "tok_span": [33, 37]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "afatinib",
+        "sbj_char_span": [98, 103],
+        "obj_char_span": [33, 41],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [23, 27],
+        "obj_tok_span": [6, 8]
+      },
+      {
+        "subject": "T790M",
+        "object": "afatinib",
+        "sbj_char_span": [121, 126],
+        "obj_char_span": [33, 41],
+        "rel_type": "response",
+        "sbj_tok_span": [33, 37],
+        "obj_tok_span": [6, 8]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Strategies to improve EGFR inhibition in EGFR T790M cancers include the combination of irreversible EGFR inhibitors with the EGFR‐directed antibody cetuximab ( as reported for afatinib plus cetuximab ) 19 ; the development of more potent and specific inhibitors of EGFR T790M20,21 ; and the use of intermittent but high doses of existing irreversible EGFR inhibitors .",
+    "entity_list": [
+      {
+        "name": "for afatinib",
+        "ent_type": "drug",
+        "char_span": [172, 184],
+        "tok_span": [32, 35]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [46, 51],
+        "tok_span": [7, 11]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "for afatinib",
+        "sbj_char_span": [46, 51],
+        "obj_char_span": [172, 184],
+        "rel_type": "response",
+        "sbj_tok_span": [7, 11],
+        "obj_tok_span": [32, 35]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The availability of 3D-structure of the target protein and the structural details of ponatinib and T315I mutant BCR-ABL protein complex renders an opportunity to identify the most active drug candidate that can efficiently block the catalytic activity of BCR-ABL .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [85, 94],
+        "tok_span": [16, 20]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [99, 104],
+        "tok_span": [21, 25]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [99, 104],
+        "obj_char_span": [85, 94],
+        "rel_type": "response",
+        "sbj_tok_span": [21, 25],
+        "obj_tok_span": [16, 20]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "A specific mutation ( del746–750 ) is found to be superior to other ( L858R ) mutations for the prediction of response to gefitinib .",
+    "entity_list": [
+      {
+        "name": "to gefitinib",
+        "ent_type": "drug",
+        "char_span": [119, 131],
+        "tok_span": [29, 34]
+      },
+      {
+        "name": "( L858R",
+        "ent_type": "variant",
+        "char_span": [68, 75],
+        "tok_span": [17, 22]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "( L858R",
+        "object": "to gefitinib",
+        "sbj_char_span": [68, 75],
+        "obj_char_span": [119, 131],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [17, 22],
+        "obj_tok_span": [29, 34]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The exon 20 T790M mutation previously documented to confer resistance to gefitinib was not observed .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [73, 82],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [12, 17],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [12, 17],
+        "obj_char_span": [73, 82],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [14, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Surprisingly , the EGFR L858R mutation leads to decreased ability to activate ERK compared to WT EGFR which correlates with decreased EGFR internalization , reduced phosphorylation of SHP2 , hyperactivity of STAT3 and reduced sensitivity to gefitinib .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [241, 250],
+        "tok_span": [43, 47]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [24, 29],
+        "tok_span": [4, 8]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [24, 29],
+        "obj_char_span": [241, 250],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [4, 8],
+        "obj_tok_span": [43, 47]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The cell line H1975 has a sensitizing L858R kinase domain mutation in exon 21 , and a second T790M in exon 20 , in cis , in the EGFR kinase domain , rendering them resistant to the reversible TKIs gefitinib and erlotinib .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [197, 206],
+        "tok_span": [49, 53]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [93, 98],
+        "tok_span": [24, 28]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [38, 43],
+        "tok_span": [10, 14]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [211, 220],
+        "tok_span": [54, 58]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [93, 98],
+        "obj_char_span": [197, 206],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [24, 28],
+        "obj_tok_span": [49, 53]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [38, 43],
+        "obj_char_span": [197, 206],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [10, 14],
+        "obj_tok_span": [49, 53]
+      },
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [38, 43],
+        "obj_char_span": [211, 220],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [10, 14],
+        "obj_tok_span": [54, 58]
+      },
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [93, 98],
+        "obj_char_span": [211, 220],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [24, 28],
+        "obj_tok_span": [54, 58]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For example , detecting the T790M mutation in blood samples would be useful for patient selection for treatment with new EGFR-TKIs for lung cancers that are resistant to gefitinib and erlotinib .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [170, 179],
+        "tok_span": [34, 38]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [28, 33],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [28, 33],
+        "obj_char_span": [170, 179],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [34, 38]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "L1196M represents a mutation of the “gatekeeper” residue , similar to the T790M gefitinib-resistance mutations observed in EGFR , and T315I mutations in ABL . ",
+    "entity_list": [
+      {
+        "name": "T790M gefitinib-resistance",
+        "ent_type": "variant",
+        "char_span": [74, 100],
+        "tok_span": [19, 29]
+      },
+      {
+        "name": "the T790M",
+        "ent_type": "variant",
+        "char_span": [70, 79],
+        "tok_span": [18, 23]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M gefitinib-resistance",
+        "object": "the T790M",
+        "sbj_char_span": [74, 100],
+        "obj_char_span": [70, 79],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [19, 29],
+        "obj_tok_span": [18, 23]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Many evidences showed that patients with advanced lung adenocarcinomas harbor EGFR mutations , L858R missense mutations at exon 21 or deletions in exon 19 were more sensitive to the EGFR-TKI erlotinib or gefitinib , , .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [204, 213],
+        "tok_span": [43, 47]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [95, 100],
+        "tok_span": [14, 18]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [95, 100],
+        "obj_char_span": [204, 213],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [14, 18],
+        "obj_tok_span": [43, 47]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Intense research efforts over the past few years have identified two major mechanisms of acquired resistance to gefitinib/erlotinib : secondary resistance mutations ( e.g. , T790M ) and “oncogene kinase switch” systems ( e.g. , MET amplification and AXL activation ) .",
+    "entity_list": [
+      {
+        "name": "gefitinib/erlotinib",
+        "ent_type": "drug",
+        "char_span": [112, 131],
+        "tok_span": [18, 27]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [174, 179],
+        "tok_span": [37, 41]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib/erlotinib",
+        "sbj_char_span": [174, 179],
+        "obj_char_span": [112, 131],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [37, 41],
+        "obj_tok_span": [18, 27]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The firstly described and the most common event responsible for resistance is the acquisition of the T790M missense mutation , which is found in ≈ 50 % of patients progressing after an initial response to erlotinib or gefitinib .",
+    "entity_list": [
+      {
+        "name": "to erlotinib",
+        "ent_type": "drug",
+        "char_span": [202, 214],
+        "tok_span": [39, 44]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [101, 106],
+        "tok_span": [16, 20]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "to erlotinib",
+        "sbj_char_span": [101, 106],
+        "obj_char_span": [202, 214],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [39, 44]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The T790M “gatekeeper mutation” is associated with acquired resistance to Erlotinib in NSCLC ( see text for details and further references ) .",
+    "entity_list": [
+      {
+        "name": "to Erlotinib",
+        "ent_type": "drug",
+        "char_span": [71, 83],
+        "tok_span": [16, 20]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [4, 9],
+        "tok_span": [1, 5]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "to Erlotinib",
+        "sbj_char_span": [4, 9],
+        "obj_char_span": [71, 83],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [1, 5],
+        "obj_tok_span": [16, 20]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The detection of T790M was associated with the clinical responsiveness to erlotinib in this case .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [74, 83],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [17, 22],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [17, 22],
+        "obj_char_span": [74, 83],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [14, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For example , HCC827 cells undergo MET amplification and AXL induction upon adaption to gefitinib , , , and PC9 cells acquire the T790M mutation in EGFR that confers resistance to erlotinib and gefitinib . ",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [180, 189],
+        "tok_span": [42, 46]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [130, 135],
+        "tok_span": [31, 35]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [130, 135],
+        "obj_char_span": [180, 189],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [31, 35],
+        "obj_tok_span": [42, 46]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "H1975 cancer cell line with mutations in EGFR exons 21 ( L858R ) and 20 ( T790M ) was refractory to reversible EGFR-TKIs , gefitinib , and erlotinib , but was sensitive to irreversible EGFR-TKIs , such as BIBW2992 ( afatinib ) .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [139, 148],
+        "tok_span": [41, 45]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [57, 62],
+        "tok_span": [13, 17]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [74, 79],
+        "tok_span": [21, 25]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [57, 62],
+        "obj_char_span": [139, 148],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [13, 17],
+        "obj_tok_span": [41, 45]
+      },
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [74, 79],
+        "obj_char_span": [139, 148],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [21, 25],
+        "obj_tok_span": [41, 45]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Due to their ability to potently inhibit EGFR , both afatinib and neratinib have been assessed in lung cancer that has become resistant to gefitinib and erlotinib due to the T790M point mutation in the kinase domain .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [153, 162],
+        "tok_span": [34, 38]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [174, 179],
+        "tok_span": [41, 45]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [174, 179],
+        "obj_char_span": [153, 162],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [41, 45],
+        "obj_tok_span": [34, 38]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "It is possible that the benefit seen among patients with K-Ras G13D mutants in response to cetuximab but not panitumumab is brought about in part by the ability of cetuximab to induce antibody dependent cellular cytotoxicity ( ADCC ) .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [91, 100],
+        "tok_span": [20, 24]
+      },
+      {
+        "name": "G13D",
+        "ent_type": "variant",
+        "char_span": [63, 67],
+        "tok_span": [13, 16]
+      },
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [164, 173],
+        "tok_span": [38, 42]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G13D",
+        "object": "cetuximab",
+        "sbj_char_span": [63, 67],
+        "obj_char_span": [91, 100],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [13, 16],
+        "obj_tok_span": [20, 24]
+      },
+      {
+        "subject": "G13D",
+        "object": "cetuximab",
+        "sbj_char_span": [63, 67],
+        "obj_char_span": [164, 173],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [13, 16],
+        "obj_tok_span": [38, 42]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Cetuximab-resistant PIK3CA and RAS cells isolated from control treated tumors in panel E were processed in parallel Cal27 cells infected with lentiviruses encoding PIK3CA H1047R or RAS G12V mutations .",
+    "entity_list": [
+      {
+        "name": "Cetuximab-resistant",
+        "ent_type": "drug",
+        "char_span": [0, 19],
+        "tok_span": [0, 5]
+      },
+      {
+        "name": "H1047R",
+        "ent_type": "variant",
+        "char_span": [171, 177],
+        "tok_span": [38, 42]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "H1047R",
+        "object": "Cetuximab-resistant",
+        "sbj_char_span": [171, 177],
+        "obj_char_span": [0, 19],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [0, 5]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "De Roock et al. demonstrated in a pooled analysis of 579 patients compiled from seven clinical trials examining metastatic colorectal cancer patients , that patients overall with KRAS mutation had decreased survival but those with KRAS G13D mutation had better overall survival and progression-free survival after treatment with cetuximab compared to other KRAS mutant tumors .",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [329, 338],
+        "tok_span": [57, 61]
+      },
+      {
+        "name": "G13D",
+        "ent_type": "variant",
+        "char_span": [236, 240],
+        "tok_span": [41, 44]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G13D",
+        "object": "cetuximab",
+        "sbj_char_span": [236, 240],
+        "obj_char_span": [329, 338],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [41, 44],
+        "obj_tok_span": [57, 61]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "T674I FIP1L1-PDGFRα is a “gatekeeper” mutation : substitution of the gatekeeper threonine ( T674 ) with a bulky amino acid ( I ) blocks access by imatinib and second-generation tyrosine kinase inhibitors ( TKIs ) , such as nilotinib and dasatinib , to a hydrophobic pocket inside the ATP binding site .",
+    "entity_list": [
+      {
+        "name": "by imatinib",
+        "ent_type": "drug",
+        "char_span": [143, 154],
+        "tok_span": [46, 49]
+      },
+      {
+        "name": "T674I",
+        "ent_type": "variant",
+        "char_span": [0, 5],
+        "tok_span": [0, 4]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T674I",
+        "object": "by imatinib",
+        "sbj_char_span": [0, 5],
+        "obj_char_span": [143, 154],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [46, 49]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "To search for novel TKIs to overcome imatinib resistance , midostaurin , EXEL-0862 and sorafenib have been investigated both in vitro and in vivo in cells harboring T674I FIP1L1-PDGFRα .",
+    "entity_list": [
+      {
+        "name": "imatinib",
+        "ent_type": "drug",
+        "char_span": [37, 45],
+        "tok_span": [8, 10]
+      },
+      {
+        "name": "T674I",
+        "ent_type": "variant",
+        "char_span": [165, 170],
+        "tok_span": [37, 41]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T674I",
+        "object": "imatinib",
+        "sbj_char_span": [165, 170],
+        "obj_char_span": [37, 45],
+        "rel_type": "resistance",
+        "sbj_tok_span": [37, 41],
+        "obj_tok_span": [8, 10]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In one large series of 289 GISTs with PDGFRA mutations , 181 ( 63 percent ) had the imatinib-resistant substitution D842V .",
+    "entity_list": [
+      {
+        "name": "imatinib-resistant",
+        "ent_type": "drug",
+        "char_span": [84, 102],
+        "tok_span": [21, 25]
+      },
+      {
+        "name": "D842V",
+        "ent_type": "variant",
+        "char_span": [116, 121],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "D842V",
+        "object": "imatinib-resistant",
+        "sbj_char_span": [116, 121],
+        "obj_char_span": [84, 102],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [21, 25]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "A biopsy by endorectal EUS is also recommended to screen for imatinib-resistant genotypes ( e.g. , WT GISTs , PDGFRα D842V mutation ) to avoid unnecessary drug related toxicity and ineffective therapy. , If EUS guided biopsy is not feasible , laparoscopic or open resection can be performed .",
+    "entity_list": [
+      {
+        "name": "imatinib-resistant",
+        "ent_type": "drug",
+        "char_span": [61, 79],
+        "tok_span": [13, 17]
+      },
+      {
+        "name": "PDGFRα D842V",
+        "ent_type": "variant",
+        "char_span": [110, 122],
+        "tok_span": [28, 35]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "PDGFRα D842V",
+        "object": "imatinib-resistant",
+        "sbj_char_span": [110, 122],
+        "obj_char_span": [61, 79],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [28, 35],
+        "obj_tok_span": [13, 17]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Ponatinib BCR/ABL1 Philadelphia chromosome positive , BCR–ABL T315I mutation Indications and usage , warnings and precautions , adverse reactions , use in specific populations , clinical pharmacology , clinical studies",
+    "entity_list": [
+      {
+        "name": "Ponatinib",
+        "ent_type": "drug",
+        "char_span": [0, 9],
+        "tok_span": [0, 2]
+      },
+      {
+        "name": "BCR–ABL T315I",
+        "ent_type": "variant",
+        "char_span": [54, 67],
+        "tok_span": [11, 19]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "BCR–ABL T315I",
+        "object": "Ponatinib",
+        "sbj_char_span": [54, 67],
+        "obj_char_span": [0, 9],
+        "rel_type": "response",
+        "sbj_tok_span": [11, 19],
+        "obj_tok_span": [0, 2]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Ponatinib is a promising novel TKI active against the T315I BCR-ABL mutation , which confers resistance to currently available TKIs .",
+    "entity_list": [
+      {
+        "name": "Ponatinib",
+        "ent_type": "drug",
+        "char_span": [0, 9],
+        "tok_span": [0, 2]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [54, 59],
+        "tok_span": [11, 15]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "Ponatinib",
+        "sbj_char_span": [54, 59],
+        "obj_char_span": [0, 9],
+        "rel_type": "response",
+        "sbj_tok_span": [11, 15],
+        "obj_tok_span": [0, 2]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "E884K in-cis with L858R decreased erlotinib inhibition of AKT and STAT3 phosphorylation but increased inhibition by gefitinib .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [116, 125],
+        "tok_span": [28, 32]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [18, 23],
+        "tok_span": [8, 12]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [34, 43],
+        "tok_span": [13, 17]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [18, 23],
+        "obj_char_span": [116, 125],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [8, 12],
+        "obj_tok_span": [28, 32]
+      },
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [18, 23],
+        "obj_char_span": [34, 43],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [8, 12],
+        "obj_tok_span": [13, 17]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Similarly , there was an opposite effect of the E884K mutation over L858R in-cis in inducing cellular cytotoxicity by erlotinib and gefitinib ( ) .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [132, 141],
+        "tok_span": [32, 36]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [68, 73],
+        "tok_span": [15, 19]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [118, 127],
+        "tok_span": [27, 31]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [68, 73],
+        "obj_char_span": [132, 141],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [32, 36]
+      },
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [68, 73],
+        "obj_char_span": [118, 127],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [27, 31]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "E884K mutation of EGFR worked in concert with L858R to differentially alter sensitivity to EGFR kinase inhibitors erlotinib and gefitinib ( A ) Stable COS-7 transfects expressing the L858R and double mutant L858R+E884K variants of EGFR were used in the experiment .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [128, 137],
+        "tok_span": [29, 33]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [46, 51],
+        "tok_span": [12, 16]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [114, 123],
+        "tok_span": [24, 28]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [46, 51],
+        "obj_char_span": [128, 137],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [12, 16],
+        "obj_tok_span": [29, 33]
+      },
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [46, 51],
+        "obj_char_span": [114, 123],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [12, 16],
+        "obj_tok_span": [24, 28]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Despite positive initial response , these patients almost invariably develop acquired secondary resistance , such as substitution of threonine 790 with methionine ( T790M ) , to these reversible inhibitors and relapse after several months , , , which accounts for about half of all cases of resistance to gefitinib and erlotinib , .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [305, 314],
+        "tok_span": [55, 59]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [165, 170],
+        "tok_span": [26, 30]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [319, 328],
+        "tok_span": [60, 64]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [165, 170],
+        "obj_char_span": [305, 314],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [55, 59]
+      },
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [165, 170],
+        "obj_char_span": [319, 328],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [60, 64]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "E884K mutation , when in-cis with L858R , significantly decreased the sensitivity of cell viability inhibition by erlotinib compared with L858R alone ;",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [114, 123],
+        "tok_span": [25, 29]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [34, 39],
+        "tok_span": [11, 15]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [34, 39],
+        "obj_char_span": [114, 123],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [11, 15],
+        "obj_tok_span": [25, 29]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "TP53 : Not done Yes PR 8.1 erlotinib , bortezomib SD 2 8 Adenocarcinoma T790M ( exon 20 ) , deletion in exon 19 Resistant , Sensitive PIK3CA : Not done",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [27, 36],
+        "tok_span": [10, 14]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [72, 77],
+        "tok_span": [25, 29]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [72, 77],
+        "obj_char_span": [27, 36],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [25, 29],
+        "obj_tok_span": [10, 14]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In May 2013 FDA approved a companion diagnostic test for erlotinib ( Cobas ) that detects exon 19 deletions or exon 21 L858R substitutions .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [57, 66],
+        "tok_span": [10, 14]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [119, 124],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [119, 124],
+        "obj_char_span": [57, 66],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [10, 14]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In preclinical studies , cell lines harboring the V842I mutation were resistant to trastuzumab , but were sensitive to irreversible HER2 inhibitor , neratinib .",
+    "entity_list": [
+      {
+        "name": "trastuzumab",
+        "ent_type": "drug",
+        "char_span": [83, 94],
+        "tok_span": [16, 19]
+      },
+      {
+        "name": "V842I",
+        "ent_type": "variant",
+        "char_span": [50, 55],
+        "tok_span": [8, 12]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "V842I",
+        "object": "trastuzumab",
+        "sbj_char_span": [50, 55],
+        "obj_char_span": [83, 94],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [8, 12],
+        "obj_tok_span": [16, 19]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "These results suggest that the T790M mutation may impair the ability of gefitinib or erlotinib to inhibit EGFR tyrosine kinase activity , even in EGFR mutants ( i.e. , L858R or an exon 19 deletion ) that are clinically associated with drug sensitivity .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [72, 81],
+        "tok_span": [15, 19]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [31, 36],
+        "tok_span": [5, 9]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [168, 173],
+        "tok_span": [41, 45]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [31, 36],
+        "obj_char_span": [72, 81],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [15, 19]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [168, 173],
+        "obj_char_span": [72, 81],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [41, 45],
+        "obj_tok_span": [15, 19]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Resistance of a NSCLC Cell Line Harboring Both T790M and L858R Mutations to Gefitinib or Erlotinib",
+    "entity_list": [
+      {
+        "name": "Gefitinib",
+        "ent_type": "drug",
+        "char_span": [76, 85],
+        "tok_span": [21, 24]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [47, 52],
+        "tok_span": [10, 14]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [57, 62],
+        "tok_span": [15, 19]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "Gefitinib",
+        "sbj_char_span": [47, 52],
+        "obj_char_span": [76, 85],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [10, 14],
+        "obj_tok_span": [21, 24]
+      },
+      {
+        "subject": "L858R",
+        "object": "Gefitinib",
+        "sbj_char_span": [57, 62],
+        "obj_char_span": [76, 85],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [21, 24]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In either scenario , treatment with gefitinib or erlotinib subsequently allows these resistant subclones to become apparent , because most cells bearing sensitivity conferring mutations die , while cells with the T790M mutation persist .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [36, 45],
+        "tok_span": [6, 10]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [213, 218],
+        "tok_span": [39, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [213, 218],
+        "obj_char_span": [36, 45],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [6, 10]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Consistent with this , the H1975 NSCLC cell line reported here to contain both T790M and L858R did not to our knowledge undergo any prior treatment with gefitinib or erlotinib ; the doubly mutated cells must have become dominant over time through multiple passages in vitro .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [153, 162],
+        "tok_span": [35, 39]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [79, 84],
+        "tok_span": [16, 20]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [89, 94],
+        "tok_span": [21, 25]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [79, 84],
+        "obj_char_span": [153, 162],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [35, 39]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [89, 94],
+        "obj_char_span": [153, 162],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [21, 25],
+        "obj_tok_span": [35, 39]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Consistent with the increased sensitivity to gefitinib and erlotinib of patient tumors harboring the missense mutations or exon 19 deletions , anchorage independent growth of cells expressing L858R , G719S , or L747_E749del A750P was inhibited by 100 nM erlotinib ( A and B ) or gefitinib ( B and unpublished data ) , although the G719S mutant may be somewhat more resistant to gefitinib ( A and unpublished data ) , consistent with other in vitro studies .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [45, 54],
+        "tok_span": [6, 10]
+      },
+      {
+        "name": "G719S",
+        "ent_type": "variant",
+        "char_span": [200, 205],
+        "tok_span": [40, 44]
+      },
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [279, 288],
+        "tok_span": [73, 77]
+      },
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [378, 387],
+        "tok_span": [97, 101]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [192, 197],
+        "tok_span": [35, 39]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G719S",
+        "object": "gefitinib",
+        "sbj_char_span": [200, 205],
+        "obj_char_span": [45, 54],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [40, 44],
+        "obj_tok_span": [6, 10]
+      },
+      {
+        "subject": "G719S",
+        "object": "gefitinib",
+        "sbj_char_span": [200, 205],
+        "obj_char_span": [279, 288],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [40, 44],
+        "obj_tok_span": [73, 77]
+      },
+      {
+        "subject": "G719S",
+        "object": "gefitinib",
+        "sbj_char_span": [200, 205],
+        "obj_char_span": [378, 387],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [40, 44],
+        "obj_tok_span": [97, 101]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [192, 197],
+        "obj_char_span": [45, 54],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [35, 39],
+        "obj_tok_span": [6, 10]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [192, 197],
+        "obj_char_span": [279, 288],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [35, 39],
+        "obj_tok_span": [73, 77]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [192, 197],
+        "obj_char_span": [378, 387],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [35, 39],
+        "obj_tok_span": [97, 101]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Transformation by cells expressing the L858R EGFR was inhibited by 0.1 μM gefitinib or erlotinib , whereas transformation by cells expressing the insertion mutant was resistant to low concentrations of these inhibitors .",
+    "entity_list": [
+      {
+        "name": "μM gefitinib",
+        "ent_type": "drug",
+        "char_span": [71, 83],
+        "tok_span": [16, 22]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [39, 44],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "μM gefitinib",
+        "sbj_char_span": [39, 44],
+        "obj_char_span": [71, 83],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [16, 22]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "To overcome such drug resistance , novel mutant-selective EGFR kinase inhibitors against EGFR T790M were reported , and 4-pyrrylamino quinazolines as new gefitinib analogues were synthesized .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [154, 163],
+        "tok_span": [34, 38]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [94, 99],
+        "tok_span": [15, 19]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [94, 99],
+        "obj_char_span": [154, 163],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [34, 38]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "In this study , we design , synthesize and evaluated a number of novel quinazoline derivatives by exchanging the positions of the C5 and C6 substituents and varying the C4-amino functionality of gefitinib , and report that compound V1801 having a trifluoromethyl group at the C5'-position and a bromine at the C2'-position of the aniline moiety substituted at the C4 position of quinazoline core overcomes gefitinib resistance via up-regulation of Noxa , suggesting a novel strategy to fight against NSCLC with EGFR T790M mutation .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [195, 204],
+        "tok_span": [41, 45]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [516, 521],
+        "tok_span": [120, 124]
+      },
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [406, 415],
+        "tok_span": [96, 100]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [516, 521],
+        "obj_char_span": [195, 204],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [120, 124],
+        "obj_tok_span": [41, 45]
+      },
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [516, 521],
+        "obj_char_span": [406, 415],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [120, 124],
+        "obj_tok_span": [96, 100]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "On the other hand , the increased inhibition potency for Gefitinib against EGFR L858R mutant ( compared to EGFR WT protein ) and subsequent further increase in potency for Gefitinib against the EGFR L858R + E884K double mutant correlates well with the increased global connectivity of the hub residues in the mutants ( – wild type , – L858R , – L858R + E884K ) .",
+    "entity_list": [
+      {
+        "name": "Gefitinib",
+        "ent_type": "drug",
+        "char_span": [57, 66],
+        "tok_span": [10, 13]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [80, 85],
+        "tok_span": [15, 19]
+      },
+      {
+        "name": "Gefitinib",
+        "ent_type": "drug",
+        "char_span": [172, 181],
+        "tok_span": [34, 37]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "Gefitinib",
+        "sbj_char_span": [80, 85],
+        "obj_char_span": [57, 66],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [10, 13]
+      },
+      {
+        "subject": "L858R",
+        "object": "Gefitinib",
+        "sbj_char_span": [80, 85],
+        "obj_char_span": [172, 181],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [34, 37]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "T790M and MET amplification account for approximately 60–70 % of all known causes of acquired resistance to gefitinib or erlotinib ; these amplifications are not mutually exclusive and can be detected in the same resistant tumor or may occur independently in different metastatic sites in the same patient .",
+    "entity_list": [
+      {
+        "name": "to gefitinib",
+        "ent_type": "drug",
+        "char_span": [105, 117],
+        "tok_span": [21, 26]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [0, 5],
+        "tok_span": [0, 4]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "to gefitinib",
+        "sbj_char_span": [0, 5],
+        "obj_char_span": [105, 117],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [21, 26]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "This report strengthens the evidence of T790M as an acquired gefitinib-resistant mutation .",
+    "entity_list": [
+      {
+        "name": "gefitinib-resistant",
+        "ent_type": "drug",
+        "char_span": [61, 80],
+        "tok_span": [14, 20]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [40, 45],
+        "tok_span": [7, 11]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib-resistant",
+        "sbj_char_span": [40, 45],
+        "obj_char_span": [61, 80],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [7, 11],
+        "obj_tok_span": [14, 20]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "A non-small-cell lung cancer cell line bearing both T790M and L858R mutations was approximately 100-fold less sensitive to gefitinib or erlotinib , and did not show inhibition of tyrosine phosphorylation in vitro .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [123, 132],
+        "tok_span": [30, 34]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [52, 57],
+        "tok_span": [12, 16]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [62, 67],
+        "tok_span": [17, 21]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [52, 57],
+        "obj_char_span": [123, 132],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [12, 16],
+        "obj_tok_span": [30, 34]
+      },
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [62, 67],
+        "obj_char_span": [123, 132],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [17, 21],
+        "obj_tok_span": [30, 34]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "( B ) Drugs such as the 4-anilinoquinazolines gefitinib ( Iressa ) and erlotinib ( Tarceva ) can inhibit the activity of EGFR L858R mutant .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [46, 55],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [126, 131],
+        "tok_span": [39, 43]
+      },
+      {
+        "name": "Iressa",
+        "ent_type": "drug",
+        "char_span": [58, 64],
+        "tok_span": [19, 22]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [126, 131],
+        "obj_char_span": [46, 55],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [14, 18]
+      },
+      {
+        "subject": "L858R",
+        "object": "Iressa",
+        "sbj_char_span": [126, 131],
+        "obj_char_span": [58, 64],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [19, 22]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "An experiment using cell lines transfected concurrently with activating mutations and a T790M mutation also proved that resistance to gefitinib and erlotinib is evident when this mutation is present .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [148, 157],
+        "tok_span": [27, 31]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [88, 93],
+        "tok_span": [12, 16]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [88, 93],
+        "obj_char_span": [148, 157],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [12, 16],
+        "obj_tok_span": [27, 31]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Erlotinib is particularly effective in cancers in which the EGFR kinase domain contains activating mutations , the two most common of which are Δ746–750 and L858R– .",
+    "entity_list": [
+      {
+        "name": "Erlotinib",
+        "ent_type": "drug",
+        "char_span": [0, 9],
+        "tok_span": [0, 3]
+      },
+      {
+        "name": "and L858R–",
+        "ent_type": "variant",
+        "char_span": [153, 163],
+        "tok_span": [30, 36]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "and L858R–",
+        "object": "Erlotinib",
+        "sbj_char_span": [153, 163],
+        "obj_char_span": [0, 9],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [30, 36],
+        "obj_tok_span": [0, 3]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Addition of erlotinib to the cell culture media allowed for the purification of ~0.1 mg of L858R and Δ746–750 tEGFRs per liter of cell culture .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [12, 21],
+        "tok_span": [2, 6]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [91, 96],
+        "tok_span": [22, 26]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [91, 96],
+        "obj_char_span": [12, 21],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [22, 26],
+        "obj_tok_span": [2, 6]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Most NSCLC patients who harbor activating EGFR mutations , including deletions in exon 19 or the point mutation L858R in exon 21 , experience an initial marked response to the EGFR-TKIs gefitinib or erlotinib . ",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [199, 208],
+        "tok_span": [42, 46]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [112, 117],
+        "tok_span": [18, 22]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [112, 117],
+        "obj_char_span": [199, 208],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [18, 22],
+        "obj_tok_span": [42, 46]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Second-generation EGFR TKIs – such as neratinib , afatinib and dacomitinib – are effective in preclinical gefitinib- and erlotinib-resistant EGFR T790M models , but to date their delivery in EGFR TKI-resistant patients have shown disappointing results in the clinic .",
+    "entity_list": [
+      {
+        "name": "and erlotinib-resistant",
+        "ent_type": "drug",
+        "char_span": [117, 140],
+        "tok_span": [31, 38]
+      },
+      {
+        "name": "EGFR T790M",
+        "ent_type": "variant",
+        "char_span": [141, 151],
+        "tok_span": [38, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "EGFR T790M",
+        "object": "and erlotinib-resistant",
+        "sbj_char_span": [141, 151],
+        "obj_char_span": [117, 140],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [38, 43],
+        "obj_tok_span": [31, 38]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "What is remarkable is that the H1975 cell line harbors the T790M and L858R mutations in the HER1 gene ( information obtained from the Sanger Institute website ) , which confer resistance to HER1 kinase inhibitors , Gefitinib and Erlotinib , responded to the irreversible HER1 kinase inhibitor BIBW-2992 . ",
+    "entity_list": [
+      {
+        "name": "Erlotinib",
+        "ent_type": "drug",
+        "char_span": [229, 238],
+        "tok_span": [53, 56]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [69, 74],
+        "tok_span": [19, 23]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [59, 64],
+        "tok_span": [14, 18]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "Erlotinib",
+        "sbj_char_span": [69, 74],
+        "obj_char_span": [229, 238],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [19, 23],
+        "obj_tok_span": [53, 56]
+      },
+      {
+        "subject": "T790M",
+        "object": "Erlotinib",
+        "sbj_char_span": [59, 64],
+        "obj_char_span": [229, 238],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [14, 18],
+        "obj_tok_span": [53, 56]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Acquired resistance EGFR mutations Mutations in the EC domain ( S492R ) and in the kinase domain ( codons 714 and 794 ) of EGFR found in patients Panitumumab remained active in a patient with S492R mutation , which abrogated cetuximab binding .",
+    "entity_list": [
+      {
+        "name": "Panitumumab",
+        "ent_type": "drug",
+        "char_span": [146, 157],
+        "tok_span": [34, 37]
+      },
+      {
+        "name": "S492R",
+        "ent_type": "variant",
+        "char_span": [64, 69],
+        "tok_span": [11, 15]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "S492R",
+        "object": "Panitumumab",
+        "sbj_char_span": [64, 69],
+        "obj_char_span": [146, 157],
+        "rel_type": "response",
+        "sbj_tok_span": [11, 15],
+        "obj_tok_span": [34, 37]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "S1206Y EML-ALKpm Lowers crizotinib-protein affinity by eliminating two H-bonds between crizotinib and the ALK binding site",
+    "entity_list": [
+      {
+        "name": "crizotinib-protein",
+        "ent_type": "drug",
+        "char_span": [24, 42],
+        "tok_span": [12, 18]
+      },
+      {
+        "name": "S1206Y",
+        "ent_type": "variant",
+        "char_span": [0, 6],
+        "tok_span": [0, 4]
+      },
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [87, 97],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "S1206Y",
+        "object": "crizotinib-protein",
+        "sbj_char_span": [0, 6],
+        "obj_char_span": [24, 42],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [12, 18]
+      },
+      {
+        "subject": "S1206Y",
+        "object": "crizotinib",
+        "sbj_char_span": [0, 6],
+        "obj_char_span": [87, 97],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [26, 30]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "G1269A EML-ALKpm Gly→Ala reduces crizotinib binding ATP binding pocket by steric hindrance",
+    "entity_list": [
+      {
+        "name": "reduces crizotinib",
+        "ent_type": "drug",
+        "char_span": [25, 43],
+        "tok_span": [13, 18]
+      },
+      {
+        "name": "G1269A",
+        "ent_type": "variant",
+        "char_span": [0, 6],
+        "tok_span": [0, 4]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "G1269A",
+        "object": "reduces crizotinib",
+        "sbj_char_span": [0, 6],
+        "obj_char_span": [25, 43],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [13, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "C1156Y EML-ALKpm Alters ALK crizotinib binding cavity , reducing crizotinib-protein interactions",
+    "entity_list": [
+      {
+        "name": "crizotinib",
+        "ent_type": "drug",
+        "char_span": [28, 38],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "C1156Y",
+        "ent_type": "variant",
+        "char_span": [0, 6],
+        "tok_span": [0, 4]
+      },
+      {
+        "name": "crizotinib-protein",
+        "ent_type": "drug",
+        "char_span": [65, 83],
+        "tok_span": [22, 28]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "C1156Y",
+        "object": "crizotinib",
+        "sbj_char_span": [0, 6],
+        "obj_char_span": [28, 38],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [14, 18]
+      },
+      {
+        "subject": "C1156Y",
+        "object": "crizotinib-protein",
+        "sbj_char_span": [0, 6],
+        "obj_char_span": [65, 83],
+        "rel_type": "resistance",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [22, 28]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "We utilised three complexes , namely , native ( ALK-crizotinib ) , F1174L ( ALK F1174L-crizotinib ) , and R1275Q ( ALK R1275Q-crizotinib ) for our analysis .",
+    "entity_list": [
+      {
+        "name": "ALK-crizotinib",
+        "ent_type": "drug",
+        "char_span": [48, 62],
+        "tok_span": [10, 17]
+      },
+      {
+        "name": "F1174L",
+        "ent_type": "variant",
+        "char_span": [67, 73],
+        "tok_span": [19, 23]
+      },
+      {
+        "name": "F1174L-crizotinib",
+        "ent_type": "drug",
+        "char_span": [80, 97],
+        "tok_span": [26, 35]
+      },
+      {
+        "name": "R1275Q-crizotinib",
+        "ent_type": "drug",
+        "char_span": [119, 136],
+        "tok_span": [45, 54]
+      },
+      {
+        "name": "R1275Q",
+        "ent_type": "variant",
+        "char_span": [106, 112],
+        "tok_span": [38, 42]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "F1174L",
+        "object": "ALK-crizotinib",
+        "sbj_char_span": [67, 73],
+        "obj_char_span": [48, 62],
+        "rel_type": "resistance",
+        "sbj_tok_span": [19, 23],
+        "obj_tok_span": [10, 17]
+      },
+      {
+        "subject": "F1174L",
+        "object": "F1174L-crizotinib",
+        "sbj_char_span": [67, 73],
+        "obj_char_span": [80, 97],
+        "rel_type": "resistance",
+        "sbj_tok_span": [19, 23],
+        "obj_tok_span": [26, 35]
+      },
+      {
+        "subject": "F1174L",
+        "object": "R1275Q-crizotinib",
+        "sbj_char_span": [67, 73],
+        "obj_char_span": [119, 136],
+        "rel_type": "resistance",
+        "sbj_tok_span": [19, 23],
+        "obj_tok_span": [45, 54]
+      },
+      {
+        "subject": "R1275Q",
+        "object": "ALK-crizotinib",
+        "sbj_char_span": [106, 112],
+        "obj_char_span": [48, 62],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [10, 17]
+      },
+      {
+        "subject": "R1275Q",
+        "object": "F1174L-crizotinib",
+        "sbj_char_span": [106, 112],
+        "obj_char_span": [80, 97],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [26, 35]
+      },
+      {
+        "subject": "R1275Q",
+        "object": "R1275Q-crizotinib",
+        "sbj_char_span": [106, 112],
+        "obj_char_span": [119, 136],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [45, 54]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Second generation EGFR-TKIs , such as BIBW2992 ( afatinib ) and PF00299804 ( dacomitinib ) , have been recommended in order to overcome the T790M mediated resistance considering that these potent , irreversible EGFR-TKIs no longer compete with ATP once they have become covalently bound to the kinase domain , .",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [49, 57],
+        "tok_span": [14, 16]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [140, 145],
+        "tok_span": [38, 42]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "afatinib",
+        "sbj_char_span": [140, 145],
+        "obj_char_span": [49, 57],
+        "rel_type": "response",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [14, 16]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Two phase III trials compared afatinib to a platinum-doublet in patients with advanced EGFR mutant NSCLC , and a combined analysis for overall survival was presented at ASCO , as well as subset analyses based on EGFR mutation subtype ( exon 19 deletion and exon 21 L858R point mutation ) . ",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [30, 38],
+        "tok_span": [5, 7]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [265, 270],
+        "tok_span": [51, 55]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "afatinib",
+        "sbj_char_span": [265, 270],
+        "obj_char_span": [30, 38],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [51, 55],
+        "obj_tok_span": [5, 7]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Thus , an alternate schedule of drug administration , such as intermittent or pulse high-dose therapy using afatinib to determine its activity against T790M ( NCT01647711 ) , is under investigation .",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [108, 116],
+        "tok_span": [19, 21]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [151, 156],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "afatinib",
+        "sbj_char_span": [151, 156],
+        "obj_char_span": [108, 116],
+        "rel_type": "response",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [19, 21]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Ponatinib ( AP24534 ) is a multitargeted BCR-ABL/SRC kinase inhibitor with potent in vitro activity against all tested mutants of BCR-ABL including T315I , and clinical activity has been reported in patients with a T315I mutation .",
+    "entity_list": [
+      {
+        "name": "Ponatinib",
+        "ent_type": "drug",
+        "char_span": [0, 9],
+        "tok_span": [0, 2]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [148, 153],
+        "tok_span": [36, 40]
+      },
+      {
+        "name": "AP24534",
+        "ent_type": "drug",
+        "char_span": [12, 19],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "Ponatinib",
+        "sbj_char_span": [148, 153],
+        "obj_char_span": [0, 9],
+        "rel_type": "response",
+        "sbj_tok_span": [36, 40],
+        "obj_tok_span": [0, 2]
+      },
+      {
+        "subject": "T315I",
+        "object": "AP24534",
+        "sbj_char_span": [148, 153],
+        "obj_char_span": [12, 19],
+        "rel_type": "response",
+        "sbj_tok_span": [36, 40],
+        "obj_tok_span": [3, 7]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For instance , T315I is a unique mutation making the CML patient irresponsive to most TKIs ( excluding ponatinib ) and leads allografting to become an option in the case .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [103, 112],
+        "tok_span": [25, 29]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [15, 20],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [15, 20],
+        "obj_char_span": [103, 112],
+        "rel_type": "response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [25, 29]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "AP-24534 and XL-228 have demonstrated activity in cell culture and in mice bearing xenograft tumors expressing T315I BCR-ABL mutants .",
+    "entity_list": [
+      {
+        "name": "AP-24534",
+        "ent_type": "drug",
+        "char_span": [0, 8],
+        "tok_span": [0, 4]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [111, 116],
+        "tok_span": [22, 26]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "AP-24534",
+        "sbj_char_span": [111, 116],
+        "obj_char_span": [0, 8],
+        "rel_type": "response",
+        "sbj_tok_span": [22, 26],
+        "obj_tok_span": [0, 4]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "These agents are irreversible inhibitors and covalently bind to Cys-797 of the EGFR ATP binding domain , and they seem to overcome resistance introduced by the T790M mutation that is seen with gefitinib and erlotinib .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [207, 216],
+        "tok_span": [44, 48]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [160, 165],
+        "tok_span": [30, 34]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [160, 165],
+        "obj_char_span": [207, 216],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [30, 34],
+        "obj_tok_span": [44, 48]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Therapy of NSCLC with first generation small molecule EGFR kinase inhibitors , gefitinib and erlotinib , is severely limited by two main factors : first , the poor sensitivity to TKIs of tumor cells expressing wild type forms of the receptor ; second the emergence of drug resistance in virtually all tumors bearing EGFR mutations initially sensitive for the presence of either exon 19 deletions or exon 21 mutation L858R .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [93, 102],
+        "tok_span": [17, 21]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [416, 421],
+        "tok_span": [76, 80]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [416, 421],
+        "obj_char_span": [93, 102],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [76, 80],
+        "obj_tok_span": [17, 21]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For example , the T790M mutation of the EGFR gene retains the ability of the receptor to activate the downstream pathway but simultaneously decreases binding of gefitinib and erlotinib to the receptor and thus leads to drug resistance .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [175, 184],
+        "tok_span": [34, 38]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [18, 23],
+        "tok_span": [4, 8]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [18, 23],
+        "obj_char_span": [175, 184],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [4, 8],
+        "obj_tok_span": [34, 38]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "( A ) L755 packs against helix C , closest to residues Ala763 and Ile767 , and makes no contacts with the inhibitors ( structure 1M17 with inhibitor erlotinib is depicted lower left ) . ( B ) Comparing the active structure of 1M17 ( green ) to an inactive representative 1XKK bound to lapatinib shows the loss of L755 interactions ( cyan ) . ( C ) Overlay of AEE788 bound structures of EGFR ( 2J6M , active , blue ) and EGFR T790M ( 2JIU , inactive , yellow ) .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [149, 158],
+        "tok_span": [38, 42]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [425, 430],
+        "tok_span": [112, 116]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [425, 430],
+        "obj_char_span": [149, 158],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [112, 116],
+        "obj_tok_span": [38, 42]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "As expected , only ponatinib caused cell death on 86 % of T315I mutated BCR-ABL1 expressing cells ( UT-7-315 ) . ",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [19, 28],
+        "tok_span": [4, 8]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [58, 63],
+        "tok_span": [15, 19]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [58, 63],
+        "obj_char_span": [19, 28],
+        "rel_type": "response",
+        "sbj_tok_span": [15, 19],
+        "obj_tok_span": [4, 8]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "However , the therapeutic efficacy of gefitinib increases noticeably in patients with lung cancer who have somatic mutations in the EGFR TK domain such as deletions in exon 19 or a point mutation ( L858R ) in exon 21 .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [38, 47],
+        "tok_span": [6, 10]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [198, 203],
+        "tok_span": [38, 42]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [198, 203],
+        "obj_char_span": [38, 47],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [38, 42],
+        "obj_tok_span": [6, 10]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "We tested this hypothesis in gefitinib-sensitive HCC827 stable cell lines expressing activating deletion mutant L747-S752 ( HCC/Del ) EGFR or in the gefitinib-resistant lines HCC827-delL747-S752-T790M ( HCC/Del-TM ) , harboring both the delL747-S752 and T790M mutations , as well as the H1975 cell line harboring L858R-T790M double mutations .",
+    "entity_list": [
+      {
+        "name": "gefitinib-sensitive",
+        "ent_type": "drug",
+        "char_span": [29, 48],
+        "tok_span": [5, 11]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [254, 259],
+        "tok_span": [81, 85]
+      },
+      {
+        "name": "gefitinib-resistant",
+        "ent_type": "drug",
+        "char_span": [149, 168],
+        "tok_span": [37, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib-sensitive",
+        "sbj_char_span": [254, 259],
+        "obj_char_span": [29, 48],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [81, 85],
+        "obj_tok_span": [5, 11]
+      },
+      {
+        "subject": "T790M",
+        "object": "gefitinib-resistant",
+        "sbj_char_span": [254, 259],
+        "obj_char_span": [149, 168],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [81, 85],
+        "obj_tok_span": [37, 43]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The increase in BIM expression and apoptosis are inhibited by the secondary resistant mutation , T790M . ( A ) Modulation of signaling following gefitinib treatment in HCC827 cells expressing EGFR mutants .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [145, 154],
+        "tok_span": [29, 33]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [97, 102],
+        "tok_span": [16, 20]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [97, 102],
+        "obj_char_span": [145, 154],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [16, 20],
+        "obj_tok_span": [29, 33]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "H3255 carries the L858R EGFR exon 21 point mutation and has an IC50 of 0.015 μM to gefitinib .",
+    "entity_list": [
+      {
+        "name": "to gefitinib",
+        "ent_type": "drug",
+        "char_span": [80, 92],
+        "tok_span": [26, 31]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [18, 23],
+        "tok_span": [5, 9]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "to gefitinib",
+        "sbj_char_span": [18, 23],
+        "obj_char_span": [80, 92],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [5, 9],
+        "obj_tok_span": [26, 31]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Ba/F3 cells expressing L858R (LR) , L858R-L747S # 4 ( LR-LS ) , or L858R-T790M (LR-TM) were plated in 24-well plates at a density of 1 × 105/well and treated with 0.1 % DMSO ( control ) or gefitinib for 24 h .",
+    "entity_list": [
+      {
+        "name": "or gefitinib",
+        "ent_type": "drug",
+        "char_span": [186, 198],
+        "tok_span": [73, 78]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [23, 28],
+        "tok_span": [6, 10]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "or gefitinib",
+        "sbj_char_span": [23, 28],
+        "obj_char_span": [186, 198],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [6, 10],
+        "obj_tok_span": [73, 78]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Transient transfection experiments utilizing COS-7 cells demonstrated that auto-phosphorylation of the original L858R EGFR was inhibited by lower concentrations of gefitinib or erlotinib than the L858R-L747S or L858R-T790M constructs ( A ) . ",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [164, 173],
+        "tok_span": [28, 32]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [112, 117],
+        "tok_span": [17, 21]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [112, 117],
+        "obj_char_span": [164, 173],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [17, 21],
+        "obj_tok_span": [28, 32]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "A sixfold or 14-fold higher concentration of gefitinib was required to inhibit the growth of cells expressing G719X or L861Q , respectively , compared with cells expressing L858R .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [45, 54],
+        "tok_span": [10, 14]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [173, 178],
+        "tok_span": [39, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "gefitinib",
+        "sbj_char_span": [173, 178],
+        "obj_char_span": [45, 54],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [10, 14]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Second-generation irreversible EGFR inhibitors , which bind irreversibly in the ATP binding pocket of EGFR through a covalent bond at C797 , were shown to be more potent inhibitors of the second-site T790M mutation than erlotinib or gefitinib in pre-clinical models ( ) .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [233, 242],
+        "tok_span": [50, 54]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [200, 205],
+        "tok_span": [39, 43]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [200, 205],
+        "obj_char_span": [233, 242],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [39, 43],
+        "obj_tok_span": [50, 54]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "These patients respond to gefitinib , but after a period of time , their tumors develop a T790M exon 20 mutation .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [26, 35],
+        "tok_span": [4, 8]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [90, 95],
+        "tok_span": [20, 24]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [90, 95],
+        "obj_char_span": [26, 35],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [20, 24],
+        "obj_tok_span": [4, 8]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "T790M ) in four EGFR doublets have been reported after treatment with gefitinib and erlotinib and associated with drug resistance and disease relapse , .",
+    "entity_list": [
+      {
+        "name": "gefitinib",
+        "ent_type": "drug",
+        "char_span": [70, 79],
+        "tok_span": [16, 20]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [0, 5],
+        "tok_span": [0, 4]
+      },
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [84, 93],
+        "tok_span": [21, 25]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "gefitinib",
+        "sbj_char_span": [0, 5],
+        "obj_char_span": [70, 79],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [16, 20]
+      },
+      {
+        "subject": "T790M",
+        "object": "erlotinib",
+        "sbj_char_span": [0, 5],
+        "obj_char_span": [84, 93],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [0, 4],
+        "obj_tok_span": [21, 25]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "OPTIMAL People’s Republic of China Erlotinib ( 82 ) versus CBDCA plus GEM ( 72 ) Exon 19 deletion or L858R",
+    "entity_list": [
+      {
+        "name": "China Erlotinib",
+        "ent_type": "drug",
+        "char_span": [29, 44],
+        "tok_span": [8, 12]
+      },
+      {
+        "name": "or L858R",
+        "ent_type": "variant",
+        "char_span": [98, 106],
+        "tok_span": [29, 34]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "or L858R",
+        "object": "China Erlotinib",
+        "sbj_char_span": [98, 106],
+        "obj_char_span": [29, 44],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [29, 34],
+        "obj_tok_span": [8, 12]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "ENSURE People’s Republic of China Erlotinib ( 110 ) versus CDDP plus GEM ( 107 ) Exon 19 deletion or L858R 63 versus 34",
+    "entity_list": [
+      {
+        "name": "China Erlotinib",
+        "ent_type": "drug",
+        "char_span": [28, 43],
+        "tok_span": [7, 11]
+      },
+      {
+        "name": "or L858R",
+        "ent_type": "variant",
+        "char_span": [98, 106],
+        "tok_span": [27, 32]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "or L858R",
+        "object": "China Erlotinib",
+        "sbj_char_span": [98, 106],
+        "obj_char_span": [28, 43],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [27, 32],
+        "obj_tok_span": [7, 11]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The H1975 cell ( L858R + T790 M ) and the EGFR wild-type cells ( H157 , H460 and A549 ) were resistant to erlotinib , with IC50 values of 9.07 ± 2.11 , 20.73 ± 4.66 , 4.58 ± 2.08 , and 7.27 ± 0.69 µmol/L , respectively ( Fig. b ) .",
+    "entity_list": [
+      {
+        "name": "erlotinib",
+        "ent_type": "drug",
+        "char_span": [106, 115],
+        "tok_span": [37, 41]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [17, 22],
+        "tok_span": [6, 10]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "erlotinib",
+        "sbj_char_span": [17, 22],
+        "obj_char_span": [106, 115],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [6, 10],
+        "obj_tok_span": [37, 41]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "For example , patients with epidermal growth factor receptor (EGFR) mutations , most frequently exon 19 deletions and exon 21 point mutation L858R may respond to EGFR–TKI , like gefitinib or erlotinib .",
+    "entity_list": [
+      {
+        "name": "or erlotinib",
+        "ent_type": "drug",
+        "char_span": [188, 200],
+        "tok_span": [41, 46]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [141, 146],
+        "tok_span": [24, 28]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "or erlotinib",
+        "sbj_char_span": [141, 146],
+        "obj_char_span": [188, 200],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [24, 28],
+        "obj_tok_span": [41, 46]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Similar mutations in the homologous residues of the kinase domains of PDGFRA ( T674I ) and KIT ( T670I ) account for imatinib resistance in some patients with hypereosinophilic syndrome and gastrointestinal stromal cell tumors , respectively .",
+    "entity_list": [
+      {
+        "name": "imatinib",
+        "ent_type": "drug",
+        "char_span": [117, 125],
+        "tok_span": [30, 32]
+      },
+      {
+        "name": "T674I",
+        "ent_type": "variant",
+        "char_span": [79, 84],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "T670I",
+        "ent_type": "variant",
+        "char_span": [97, 102],
+        "tok_span": [23, 27]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T674I",
+        "object": "imatinib",
+        "sbj_char_span": [79, 84],
+        "obj_char_span": [117, 125],
+        "rel_type": "resistance",
+        "sbj_tok_span": [14, 18],
+        "obj_tok_span": [30, 32]
+      },
+      {
+        "subject": "T670I",
+        "object": "imatinib",
+        "sbj_char_span": [97, 102],
+        "obj_char_span": [117, 125],
+        "rel_type": "resistance",
+        "sbj_tok_span": [23, 27],
+        "obj_tok_span": [30, 32]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Moreover , the D842V PDGFRA mutation , classically resistant to imatinib , confers also a sunitinib resistance in vitro .",
+    "entity_list": [
+      {
+        "name": "imatinib",
+        "ent_type": "drug",
+        "char_span": [64, 72],
+        "tok_span": [15, 17]
+      },
+      {
+        "name": "D842V",
+        "ent_type": "variant",
+        "char_span": [15, 20],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "D842V",
+        "object": "imatinib",
+        "sbj_char_span": [15, 20],
+        "obj_char_span": [64, 72],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [15, 17]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Activating mutations Frequency at diagnosis , Predictive value for imatinib Secondary mutations of imatinib resistance , – Predictive value for sunitinib KIT Exon 9 10 % 70 % –75 % 58 % Exon 11 67 % 90 % –95 % 34 % Exon 13 1 % ± Yes + Exon 14 0 % Yes + Exon 17 1 % ± Yes − Exon 18 0 % Yes − PDGFRA 33 % –60 % Exon 12 1 % + Exon 14 & lt ; 1 % + Exon 18 5 % ± excepted for D842V Yes − for D842V",
+    "entity_list": [
+      {
+        "name": "imatinib",
+        "ent_type": "drug",
+        "char_span": [67, 75],
+        "tok_span": [11, 13]
+      },
+      {
+        "name": "for D842V",
+        "ent_type": "variant",
+        "char_span": [367, 376],
+        "tok_span": [114, 119]
+      },
+      {
+        "name": "imatinib",
+        "ent_type": "drug",
+        "char_span": [99, 107],
+        "tok_span": [16, 18]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "for D842V",
+        "object": "imatinib",
+        "sbj_char_span": [367, 376],
+        "obj_char_span": [67, 75],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [114, 119],
+        "obj_tok_span": [11, 13]
+      },
+      {
+        "subject": "for D842V",
+        "object": "imatinib",
+        "sbj_char_span": [367, 376],
+        "obj_char_span": [99, 107],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [114, 119],
+        "obj_tok_span": [16, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "A pooled analysis showed that afatinib significantly improved OS in patients with advanced NSCLC harboring common EGFR mutations ( Del 19 and L858R ) when compared with standard chemotherapy in the first-line setting .",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [30, 38],
+        "tok_span": [5, 7]
+      },
+      {
+        "name": "L858R",
+        "ent_type": "variant",
+        "char_span": [142, 147],
+        "tok_span": [23, 27]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "L858R",
+        "object": "afatinib",
+        "sbj_char_span": [142, 147],
+        "obj_char_span": [30, 38],
+        "rel_type": "sensitivity",
+        "sbj_tok_span": [23, 27],
+        "obj_tok_span": [5, 7]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "It is noteworthy that in H1975 cells carrying the T790M resistance mutation , afatinib had a slightly higher activity than the reversible kinase inhibitors , but this difference was small and the activity was still logarithmically inferior to what was observed in the HCC827 cell lines .",
+    "entity_list": [
+      {
+        "name": "afatinib",
+        "ent_type": "drug",
+        "char_span": [78, 86],
+        "tok_span": [18, 20]
+      },
+      {
+        "name": "T790M",
+        "ent_type": "variant",
+        "char_span": [50, 55],
+        "tok_span": [11, 15]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T790M",
+        "object": "afatinib",
+        "sbj_char_span": [50, 55],
+        "obj_char_span": [78, 86],
+        "rel_type": "response",
+        "sbj_tok_span": [11, 15],
+        "obj_tok_span": [18, 20]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The high-affinity dual inhibitors for wt and T315I ABL1 kinase domains can be divided roughly into two major scaffold categories : ponatinib-like and non-ponatinib inhibitors .",
+    "entity_list": [
+      {
+        "name": "ponatinib-like",
+        "ent_type": "drug",
+        "char_span": [131, 145],
+        "tok_span": [28, 34]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [45, 50],
+        "tok_span": [9, 13]
+      },
+      {
+        "name": "non-ponatinib",
+        "ent_type": "drug",
+        "char_span": [150, 163],
+        "tok_span": [35, 41]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib-like",
+        "sbj_char_span": [45, 50],
+        "obj_char_span": [131, 145],
+        "rel_type": "response",
+        "sbj_tok_span": [9, 13],
+        "obj_tok_span": [28, 34]
+      },
+      {
+        "subject": "T315I",
+        "object": "non-ponatinib",
+        "sbj_char_span": [45, 50],
+        "obj_char_span": [150, 163],
+        "rel_type": "response",
+        "sbj_tok_span": [9, 13],
+        "obj_tok_span": [35, 41]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Thus , the ponatinib scaffold provides the greatest binding energy components via predominantly polar interactions , especially H-bonding at the hinge , but variations in the side chains and their mostly hydrophobic interactions cause the variations in binding affinity seen mostly for binding to the T315I isoform .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [11, 20],
+        "tok_span": [3, 7]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [301, 306],
+        "tok_span": [51, 55]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [301, 306],
+        "obj_char_span": [11, 20],
+        "rel_type": "response",
+        "sbj_tok_span": [51, 55],
+        "obj_tok_span": [3, 7]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Preliminary results from an ongoing phase 1 dose-escalation study of the multikinase , pan–BCR-ABL inhibitor ponatinib ( AP24534 ) showed antileukemic activity in patients with refractory CML , including patients with the T315I mutation .",
+    "entity_list": [
+      {
+        "name": "inhibitor ponatinib",
+        "ent_type": "drug",
+        "char_span": [99, 118],
+        "tok_span": [23, 28]
+      },
+      {
+        "name": "the T315I",
+        "ent_type": "variant",
+        "char_span": [218, 227],
+        "tok_span": [49, 54]
+      },
+      {
+        "name": "( AP24534",
+        "ent_type": "drug",
+        "char_span": [119, 128],
+        "tok_span": [28, 33]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "the T315I",
+        "object": "inhibitor ponatinib",
+        "sbj_char_span": [218, 227],
+        "obj_char_span": [99, 118],
+        "rel_type": "response",
+        "sbj_tok_span": [49, 54],
+        "obj_tok_span": [23, 28]
+      },
+      {
+        "subject": "the T315I",
+        "object": "( AP24534",
+        "sbj_char_span": [218, 227],
+        "obj_char_span": [119, 128],
+        "rel_type": "response",
+        "sbj_tok_span": [49, 54],
+        "obj_tok_span": [28, 33]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Ponatinib is a potent BCR-ABL inhibitor with activity against the T315I mutation.",
+    "entity_list": [
+      {
+        "name": "Ponatinib",
+        "ent_type": "drug",
+        "char_span": [0, 9],
+        "tok_span": [0, 2]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [66, 71],
+        "tok_span": [14, 18]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "Ponatinib",
+        "sbj_char_span": [66, 71],
+        "obj_char_span": [0, 9],
+        "rel_type": "response",
+        "sbj_tok_span": [14, 18],
+        "obj_tok_span": [0, 2]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Notably , the T315I Bcr-Abl mutation does not respond to any approved TKI in vitro or clinically , except ponatinib which was approved by US FDA more recently .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [106, 115],
+        "tok_span": [27, 31]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [14, 19],
+        "tok_span": [3, 7]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [14, 19],
+        "obj_char_span": [106, 115],
+        "rel_type": "response",
+        "sbj_tok_span": [3, 7],
+        "obj_tok_span": [27, 31]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "More recently , a pan-BCR-ABL inhibitor TKI ( ponatinib ) was shown to be active against the T315I mutation .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [46, 55],
+        "tok_span": [14, 18]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [93, 98],
+        "tok_span": [26, 30]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [93, 98],
+        "obj_char_span": [46, 55],
+        "rel_type": "response",
+        "sbj_tok_span": [26, 30],
+        "obj_tok_span": [14, 18]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "The FGFR tyrosine kinase inhibitors ( TKI ) dovitinib and NVP-BGJ398 are currently in clinical development and the FGFR TKI ponatinib , was recently approved by the FDA for use in treating T315I mutant chronic myelogenous leukemia .",
+    "entity_list": [
+      {
+        "name": "ponatinib",
+        "ent_type": "drug",
+        "char_span": [124, 133],
+        "tok_span": [33, 37]
+      },
+      {
+        "name": "T315I",
+        "ent_type": "variant",
+        "char_span": [189, 194],
+        "tok_span": [48, 52]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "T315I",
+        "object": "ponatinib",
+        "sbj_char_span": [189, 194],
+        "obj_char_span": [124, 133],
+        "rel_type": "response",
+        "sbj_tok_span": [48, 52],
+        "obj_tok_span": [33, 37]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "Patient Mutation KIT inhibitor % RECIST Best response LDH × ULN baseline/best response PET response CNS relapse/progression 1 21 bp dup exon 11 Imatinib 60 PR1.1/0.8 Yes Yes 2 K642E exon 13 Imatinib 35 PR1.5/1.25 Yes No 3 L576P exon 11 Imatinib 42 PDa 12.5/1.2 NA Yes 4 D820Y exon 17 Sorafenib 27 SD 2.8/1.3 NA Yes",
+    "entity_list": [
+      {
+        "name": "11 Imatinib",
+        "ent_type": "drug",
+        "char_span": [141, 152],
+        "tok_span": [30, 33]
+      },
+      {
+        "name": "3 L576P",
+        "ent_type": "variant",
+        "char_span": [220, 227],
+        "tok_span": [64, 69]
+      },
+      {
+        "name": "13 Imatinib",
+        "ent_type": "drug",
+        "char_span": [187, 198],
+        "tok_span": [50, 53]
+      },
+      {
+        "name": "11 Imatinib",
+        "ent_type": "drug",
+        "char_span": [233, 244],
+        "tok_span": [70, 73]
+      },
+      {
+        "name": "4 D820Y",
+        "ent_type": "variant",
+        "char_span": [268, 275],
+        "tok_span": [85, 90]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "3 L576P",
+        "object": "11 Imatinib",
+        "sbj_char_span": [220, 227],
+        "obj_char_span": [141, 152],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [64, 69],
+        "obj_tok_span": [30, 33]
+      },
+      {
+        "subject": "3 L576P",
+        "object": "13 Imatinib",
+        "sbj_char_span": [220, 227],
+        "obj_char_span": [187, 198],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [64, 69],
+        "obj_tok_span": [50, 53]
+      },
+      {
+        "subject": "3 L576P",
+        "object": "11 Imatinib",
+        "sbj_char_span": [220, 227],
+        "obj_char_span": [233, 244],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [64, 69],
+        "obj_tok_span": [70, 73]
+      },
+      {
+        "subject": "4 D820Y",
+        "object": "11 Imatinib",
+        "sbj_char_span": [268, 275],
+        "obj_char_span": [141, 152],
+        "rel_type": "response",
+        "sbj_tok_span": [85, 90],
+        "obj_tok_span": [30, 33]
+      },
+      {
+        "subject": "4 D820Y",
+        "object": "13 Imatinib",
+        "sbj_char_span": [268, 275],
+        "obj_char_span": [187, 198],
+        "rel_type": "response",
+        "sbj_tok_span": [85, 90],
+        "obj_tok_span": [50, 53]
+      },
+      {
+        "subject": "4 D820Y",
+        "object": "11 Imatinib",
+        "sbj_char_span": [268, 275],
+        "obj_char_span": [233, 244],
+        "rel_type": "response",
+        "sbj_tok_span": [85, 90],
+        "obj_tok_span": [70, 73]
+      }
+    ],
+    "umls_entity_list": []
+  },
+  {
+    "text": "TP53 : Not done Yes PR 26.1 erlotinib , cetuximab PD1 5 Adenocarcinoma L858R ( exon 21 ) , G873E ( exon 21 ) Sensitive , Sensitive PIK3CA : E542K ( exon 9 )",
+    "entity_list": [
+      {
+        "name": "cetuximab",
+        "ent_type": "drug",
+        "char_span": [40, 49],
+        "tok_span": [15, 19]
+      },
+      {
+        "name": "E542K",
+        "ent_type": "variant",
+        "char_span": [140, 145],
+        "tok_span": [51, 55]
+      }
+    ],
+    "relation_list": [
+      {
+        "subject": "E542K",
+        "object": "cetuximab",
+        "sbj_char_span": [140, 145],
+        "obj_char_span": [40, 49],
+        "rel_type": "resistance or non-response",
+        "sbj_tok_span": [51, 55],
+        "obj_tok_span": [15, 19]
+      }
+    ],
+    "umls_entity_list": []
+  }
+]
