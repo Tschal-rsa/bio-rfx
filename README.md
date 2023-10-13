@@ -4,6 +4,13 @@ This repository is the official implementation of Bio-RFX.
 
 **Bio-RFX: Refining Biomedical Extraction via Advanced Relation Classification and Structural Constraints**
 
+## Requirements
+
+1. Python 3.8 / 3.9
+2. `torch` 1.10.2 (recommended)
+3. `scikit-learn` 1.0.2 (recommended)
+4. `allennlp`
+
 ## NER
 
 ### Train an entity detector
