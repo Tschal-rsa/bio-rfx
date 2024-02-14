@@ -4,8 +4,7 @@ task_ent_labels = {
 	'DrugProt-200': ["CHEMICAL", "GENE"],
     'DrugVar': ["drug", "variant"],
     'DrugVar-500': ["drug", "variant"],
-    'DrugVar-200': ["drug", "variant"],
-	'BB': ["Habitat", "Microorganism", "Phenotype", "Geographical", "_FRAGMENT"]
+    'DrugVar-200': ["drug", "variant"]
 }
 
 task_cnt_question = {
@@ -14,8 +13,7 @@ task_cnt_question = {
     'DrugProt-200': "chemicals and genes",
     'DrugVar': "drugs and variants",
     'DrugVar-500': "drugs and variants",
-    'DrugVar-200': "drugs and variants",
-	'BB': "habitats, microorganisms, phenotypes, geographicals and lexical fragments"
+    'DrugVar-200': "drugs and variants"
 }
 
 task_ent_to_id = {
@@ -24,12 +22,10 @@ task_ent_to_id = {
     'DrugProt-200': {"CHEMICAL": 0, "GENE": 1},
     'DrugVar': {"drug": 0, "variant": 1},
     'DrugVar-500': {"drug": 0, "variant": 1},
-    'DrugVar-200': {"drug": 0, "variant": 1},
-	'BB': {"Habitat": 0, "Microorganism": 1, "Phenotype": 2, "Geographical": 3, "_FRAGMENT": 4}
+    'DrugVar-200': {"drug": 0, "variant": 1}
 }
 
 task_rel_labels = {
-	'BB': ["Exhibits", "Lives_In", "_lexicallyChainedTo"],
 	'DrugProt': ['product or substrate', 'activator', 'agonist or antagonist', 'regulator', 'part of', 'inhibitor'],
 	'DrugProt-500': ['product or substrate', 'activator', 'agonist or antagonist', 'regulator', 'part of', 'inhibitor'],
     'DrugProt-200': ['product or substrate', 'activator', 'agonist or antagonist', 'regulator', 'part of', 'inhibitor'],
@@ -55,20 +51,6 @@ DrugProt_tree = {
 }
 
 task_tup_limits = {
-	'BB': {
-		'Exhibits': {
-			'sbj_targets': [2, 5],
-			'obj_targets': [3, 5]
-		},
-		'Lives_In': {
-			'sbj_targets': [2, 5],
-			'obj_targets': [1, 4, 5]
-		},
-		'_lexicallyChainedTo': {
-			'sbj_targets': [5],
-			'obj_targets': [1, 2, 3, 4]
-		}
-	},
     'DrugVar': {
         "resistance": {
 			'sbj_targets': [2],
@@ -208,12 +190,6 @@ task_umls_ent_labels = {
 }
 
 task_rel_question = {
-	'BB':
-	{
-		"Exhibits": "What phenotype does the microorganism exhibit?",
-		"Lives_In": "What is the microorganism and where does it live in?",
-		"_lexicallyChainedTo": "What are the two fragaments that are lexically connected?",
-	},
     'DrugVar':
     {
         "resistance": "What is the gene variant that acts as the resistance to the drug?",
@@ -264,12 +240,6 @@ task_umls_rels = {
 		'regulator': 'a regulator', 
 		'part of': 'a part', 
 		'inhibitor': 'an inhibitor'
-	},
-	'BB':
-    {
-		"Exhibits": "exhibits",
-		"Lives_In": "lives in", 
-		"_lexicallyChainedTo": "lexically chained to",
 	},
     'DrugVar':
     {

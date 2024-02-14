@@ -9,7 +9,7 @@ import argparse
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='Evaluate NER')
-	parser.add_argument('--dataset', type=str, help='BB, DrugVar or DrugProt')
+	parser.add_argument('--dataset', type=str, help='DrugVar or DrugProt')
 	parser.add_argument('--ent_name', type=str, default='', help='The name of the entity detector model')
 	parser.add_argument('--ent_id', type=str, help='The run ID of the entity detector model')
 	parser.add_argument('--cnt_name', type=str, default='', help='The name of the number predictor model')

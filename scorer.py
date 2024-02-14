@@ -371,15 +371,7 @@ def evaluate_relation(model, data, rel_labels, batch_size, device, tokenizer) ->
 
 
 def evaluate_count(model, data, batch_size, device, tokenizer) -> tuple:
-	if config.common["exp_name"] == "BB":
-		FACTOR = 10
-	elif "DrugProt" in config.common["exp_name"]:
-		FACTOR = 1
-	elif "DrugVar" in config.common["exp_name"]:
-		FACTOR = 1
-	else:
-		FACTOR = None
-		raise NotImplementedError
+	FACTOR = 1
 
 	model.eval()
 	all_input_ids = [i["tokens"]["input_ids"] for i in data]

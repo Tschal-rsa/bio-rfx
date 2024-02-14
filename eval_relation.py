@@ -135,15 +135,7 @@ def load_count_data(data_base_path, tokenizer, dataset, rel_list, false_negs, sp
 	 - split_map: List (if split_sentence = True), else None.
 	 			  If the `i`th sample is splitted into `c` sentences, then split_map[i] = c.
 	'''
-	if config.common["exp_name"] == "BB":
-		FACTOR = 10
-	elif "DrugProt" in config.common["exp_name"]:
-		FACTOR = 1
-	elif "DrugVar" in config.common["exp_name"]:
-		FACTOR = 1
-	else:
-		FACTOR = None
-		raise NotImplementedError
+	FACTOR = 1
 	
 	def _clip(left, right):
 		"""
@@ -203,15 +195,7 @@ def load_count_data(data_base_path, tokenizer, dataset, rel_list, false_negs, sp
 	return encoded_dict
 
 def evaluate_count(model, data, batch_size, device, tokenizer):
-	if config.common["exp_name"] == "BB":
-		FACTOR = 10
-	elif "DrugProt" in config.common["exp_name"]:
-		FACTOR = 1
-	elif "DrugVar" in config.common["exp_name"]:
-		FACTOR = 1
-	else:
-		FACTOR = None
-		raise NotImplementedError
+	FACTOR = 1
 
 	model.eval()
 	all_input_ids = [i["tokens"]["input_ids"] for i in data]
@@ -624,7 +608,7 @@ def evaluate_entity(model, data, ent_spans, ent_widths, ent_scores, ent_labels, 
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='Evaluate RE')
-	parser.add_argument('--dataset', type=str, help='BB, DrugVar or DrugProt')
+	parser.add_argument('--dataset', type=str, help='DrugVar or DrugProt')
 	parser.add_argument('--rel_name', type=str, default='', help='The name of the relation classifier model')
 	parser.add_argument('--rel_id', type=str, help='The run ID of the relation classifier model')
 	parser.add_argument('--ent_name', type=str, default='', help='The name of the entity detector model')

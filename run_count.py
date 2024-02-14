@@ -21,7 +21,7 @@ np.random.seed(seed)
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='Train a number predictor')
-	parser.add_argument('--dataset', type=str, help='BB, DrugVar or DrugProt')
+	parser.add_argument('--dataset', type=str, help='DrugVar or DrugProt')
 	parser.add_argument('--name', type=str, default='', help='Create a name for the model file')
 	parser.add_argument('--NER', action='store_true', help='Whether to only conduct NER')
 
@@ -31,15 +31,7 @@ if __name__ == '__main__':
 	config.common['run_name'] = args.name
 	config.common['relation_aware'] = not args.NER
 
-	if config.common["exp_name"] == "BB":
-		FACTOR = 10
-	elif "DrugProt" in config.common["exp_name"]:
-		FACTOR = 1
-	elif "DrugVar" in config.common["exp_name"]:
-		FACTOR = 1
-	else:
-		FACTOR = None
-		raise NotImplementedError
+	FACTOR = 1
 
 	device = config.common["device"]
 

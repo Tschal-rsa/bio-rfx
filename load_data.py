@@ -479,15 +479,7 @@ def load_count_data(data_base_path, tokenizer, dataset, relation_aware, field_li
 			"dev": [...]
 	   }
 	'''
-	if config.common["exp_name"] == "BB":
-		FACTOR = 10
-	elif "DrugProt" in config.common["exp_name"]:
-		FACTOR = 1
-	elif "DrugVar" in config.common["exp_name"]:
-		FACTOR = 1
-	else:
-		FACTOR = None
-		raise NotImplementedError
+	FACTOR = 1
 	
 	encoded_dict, subj_and_obj_cnt = {}, {}
 	for name in field_list:
