@@ -9,13 +9,13 @@ This repository is the official implementation of Bio-RFX.
 1. Python 3.8 / 3.9
 2. `torch` 1.10.2 (recommended)
 3. `scikit-learn` 1.0.2 (recommended)
-4. `allennlp`
+4. `allennlp` 2.10.1 (recommended)
 
-## NER
+## Datasets
 
-### Train an entity detector
+All the datasets we use are publicly available: [DrugVar](https://drive.google.com/drive/folders/1HJRP17ie-CoLRZFaF28BzVFVKoPcfLPo) and [DrugProt](https://zenodo.org/records/5119892).
 
-Available datasets:
+Preprocessed datasets (in data/):
 
 1. DrugVar
 2. DrugVar-500
@@ -23,6 +23,10 @@ Available datasets:
 4. DrugProt
 5. DrugProt-500
 6. DrugProt-200
+
+## NER
+
+### Train an entity detector
 
 ```bash
 python run_entity_span.py --dataset DrugVar --name Ent --NER
