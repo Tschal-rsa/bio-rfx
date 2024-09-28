@@ -13,8 +13,6 @@ This repository is the official implementation of Bio-RFX.
 
 ## Datasets
 
-All the datasets we use are publicly available: [DrugVar](https://drive.google.com/drive/folders/1HJRP17ie-CoLRZFaF28BzVFVKoPcfLPo) and [DrugProt](https://zenodo.org/records/5119892).
-
 Preprocessed datasets (in data/):
 
 1. DrugVar
@@ -23,6 +21,8 @@ Preprocessed datasets (in data/):
 4. DrugProt
 5. DrugProt-500
 6. DrugProt-200
+7. BC5CDR
+8. CRAFT
 
 ## NER
 

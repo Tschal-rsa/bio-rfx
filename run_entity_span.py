@@ -39,7 +39,7 @@ def load_entity_data(data_base_path, tokenizer, dataset, relation_aware, field_l
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='Train an entity detector')
-	parser.add_argument('--dataset', type=str, help='DrugVar or DrugProt')
+	parser.add_argument('--dataset', type=str, help='DrugVar, DrugProt, BC5CDR or CRAFT')
 	parser.add_argument('--name', type=str, default='', help='Create a name for the model file')
 	parser.add_argument('--NER', action='store_true', help='Whether to only conduct NER')
 

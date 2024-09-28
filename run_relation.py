@@ -21,7 +21,7 @@ np.random.seed(seed)
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='Train a relation classifier')
-	parser.add_argument('--dataset', type=str, help='DrugVar or DrugProt')
+	parser.add_argument('--dataset', type=str, help='DrugVar, DrugProt or BC5CDR')
 	parser.add_argument('--name', type=str, default='', help='Create a name for the model file')
 
 	args = parser.parse_args()

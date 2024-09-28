@@ -608,7 +608,7 @@ def evaluate_entity(model, data, ent_spans, ent_widths, ent_scores, ent_labels, 
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='Evaluate RE')
-	parser.add_argument('--dataset', type=str, help='DrugVar or DrugProt')
+	parser.add_argument('--dataset', type=str, help='DrugVar, DrugProt or BC5CDR')
 	parser.add_argument('--rel_name', type=str, default='', help='The name of the relation classifier model')
 	parser.add_argument('--rel_id', type=str, help='The run ID of the relation classifier model')
 	parser.add_argument('--ent_name', type=str, default='', help='The name of the entity detector model')
